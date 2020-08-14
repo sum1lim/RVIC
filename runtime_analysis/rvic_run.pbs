@@ -3,7 +3,7 @@
 #PBS -l vmem=24000mb
 #PBS -l walltime=24:00:00
 #PBS -l file=1gb
-#PBS -e ~/RVIC/runtime_analysis/results
+#PBS -e ./results
 #PBS -o $TMP/rvic_run_output
 #PBS -N rvic_run
 
