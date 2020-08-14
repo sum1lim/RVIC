@@ -70,7 +70,7 @@ coordinate_dict = {
     41: "-117.21875,54.71875", 		# WRNTM,07GG001
 
 }   
-case_id = sys.argv[-1]
+case_id = sys.argv[1]
 today = datetime.datetime.now()
 logging.critical("\n")
 logging.critical(case_id + "\n")
@@ -114,7 +114,7 @@ for k in sorted(coordinate_dict.keys()):
     convolution("peace_convolve.config.cfg")
     
     elapsed_time = round(time.time() - start_time, 5)
-    output_size = Path(f"/storage/home/sangwonl/rvic_run/routing/{case_id}/hist/{case_id}.rvic.h0a.2100-01-01.nc").stat().st_size
+    output_size = Path(f"./routing/{case_id}/hist/{case_id}.rvic.h0a.2100-01-01.nc").stat().st_size
     
     logging.critical(f"total run time:{elapsed_time} sec")
     logging.critical(f"output file size:{output_size} byte")
