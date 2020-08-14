@@ -64,7 +64,8 @@ def plot_all(scenario):
     
     # scatter_plot(plot_output_size, f"Output filesize: {scenario}", "Output size (byte)")
 
-with open("rvic_run.e89690", "rt") as f:
+log_file = sys.argv[-1]
+with open(log_file, "rt") as f:
 
     for line in f:
         if line.startswith("CRITICAL:root:"):

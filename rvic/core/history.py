@@ -390,7 +390,7 @@ class Tape(object):
             if np.isnan(self._out_data[field][self._out_data_i].sum()):
                 raise ValueError('nan found in output field: {0}, most likely '
                                  'there is a nan/missing/fill value in the'
-                                 'input forcings'.format(field))
+                                 'input forcings')
         # ------------------------------------------------------------ #
 
         self._out_times[self._out_data_i] = self._write_ord
@@ -518,7 +518,7 @@ class Tape(object):
         f.createDimension('time', None)
 
         time = f.createVariable('time', self._ncprec, ('time',))
-        time[:] = self._out_times[:self._out_data_i]
+        time[:] = self._out_times[:self._out_data_i + 1]
         for key, val in iteritems(share.time):
             if val:
                 setattr(time, key, val.encode())
@@ -531,7 +531,7 @@ class Tape(object):
 
             time_bnds = f.createVariable('time_bnds', self._ncprec,
                                          ('time', 'nv',), **self.ncvaropts)
-            time_bnds[:, :] = self._out_time_bnds[:self._out_data_i]
+            time_bnds[:, :] = self._out_time_bnds[:self._out_data_i + 1]
         # ------------------------------------------------------------ #
 
         # ------------------------------------------------------------ #
@@ -585,7 +585,7 @@ class Tape(object):
         for field in self._fincl:
             var = f.createVariable(field, self._ncprec, tcoords,
                                    **self.ncvaropts)
-            var[:, :] = self._out_data[field][:self._out_data_i]
+            var[:, :] = self._out_data[field][:self._out_data_i + 1]
 
             for key, val in iteritems(getattr(share, field)):
                 if val:
