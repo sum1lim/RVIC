@@ -3,6 +3,7 @@
 RVIC parameter file development driver
 '''
 import os
+import time
 import numpy as np
 import pandas as pd
 from logging import getLogger
@@ -33,32 +34,36 @@ results = {}
 
 # -------------------------------------------------------------------- #
 # Top level driver
-def parameters(config, numofproc=1):
+def parameters(config_file, numofproc=1):
     '''
     Top level function for RVIC parameter generation function.
 
     Parameters
     ----------
-    config : str or dict
-        Path to RVIC parameters configuration file or dictionary of
-        configuration options.
+    config_file : str
+        Path to RVIC parameters configuration file.
     numofproc : int
         Number of processors to use when developing RVIC parameters.
     '''
 
     # ---------------------------------------------------------------- #
     # Initilize
+    init_start_time = time.time()
     uh_box, fdr_data, fdr_vatts, dom_data, \
-        outlets, config_dict, directories = gen_uh_init(config)
+        outlets, config_dict, directories = gen_uh_init(config_file)
+    init_elapsed_time = round(time.time() - init_start_time, 5)
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Get main logger
     log = getLogger(LOG_NAME)
+    log.critical("init: "+str(init_elapsed_time)+" sec")
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Run
+    run_start_time = time.time()
+
     if numofproc > 1:
         from multiprocessing import Pool
         pool = Pool(processes=numofproc)
@@ -91,17 +96,24 @@ def parameters(config, numofproc=1):
 
     if not outlets:
         raise ValueError('outlets in parameters are empty')
+
+    run_elapsed_time = round(time.time() - run_start_time, 5)
+    log.critical("run: "+str(run_elapsed_time)+" sec")
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Finally, make the parameter file
+    final_start_time = time.time()
     gen_uh_final(outlets, dom_data, config_dict, directories)
+    final_elapsed_time = round(time.time() - final_start_time, 5)
+    log.critical("final: "+str(final_elapsed_time)+" sec")
+    close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #
 
 
-def gen_uh_init(config):
+def gen_uh_init(config_file):
     '''Initialize RVIC parameters script.
 
     This function:
@@ -114,9 +126,8 @@ def gen_uh_init(config):
 
     Parameters
     ----------
-    config : str or dict
-        Path to RVIC parameters configuration file or dictionary of
-        configuration options.
+    config_file : str
+        Path to RVIC parameters configuration file.
 
     Returns
     ----------
@@ -140,10 +151,7 @@ def gen_uh_init(config):
 
     # ---------------------------------------------------------------- #
     # Read Configuration files
-    if isinstance(config, dict):
-        config_dict = config
-    else:
-        config_dict = read_config(config)
+    config_dict = read_config(config_file)
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
@@ -163,8 +171,7 @@ def gen_uh_init(config):
 
     # ---------------------------------------------------------------- #
     # copy inputs to $case_dir/inputs and update configuration
-    if not isinstance(config, dict):
-        config_dict = copy_inputs(config, directories['inputs'])
+    config_dict = copy_inputs(config_file, directories['inputs'])
     options = config_dict['OPTIONS']
     # ---------------------------------------------------------------- #
 
@@ -191,7 +198,7 @@ def gen_uh_init(config):
         if 'names' in pour_points:
             pour_points.fillna(inplace=True, value='unknown')
             for i, name in enumerate(pour_points.names):
-                pour_points.ix[i, 'names'] = strip_invalid_char(name)
+                pour_points.loc[i, 'names'] = strip_invalid_char(name)
 
         pour_points.drop_duplicates(inplace=True)
         pour_points.dropna()
@@ -442,17 +449,28 @@ def gen_uh_run(uh_box, fdr_data, fdr_vatts, dom_data, outlet, config_dict,
     # ------------------------------------------------------------ #
 
     # ------------------------------------------------------------ #
+
     # Loop over pour points
     n_pour_points = len(outlet.pour_points)
     for j, pour_point in enumerate(outlet.pour_points):
-
         log.info('On pour_point #%s of %s', j + 1, n_pour_points)
 
         # -------------------------------------------------------- #
         # Make the Unit Hydrograph Grid
-        rout_data = rout(pour_point, uh_box, fdr_data, fdr_vatts,
+        (
+            rout_data, 
+            catchment_runtime, 
+            uh_runtime, 
+            uh_river_runtime, 
+            grid_uh_runtime
+        ) = rout(pour_point, uh_box, fdr_data, fdr_vatts,
                          config_dict['ROUTING'])
 
+        log.critical(f"catchment runtime: {catchment_runtime}")
+        log.critical(f"uh runtime: {uh_runtime}")
+        log.critical(f"uh_river runtime: {uh_river_runtime}")
+        log.critical(f"grid_uh runtime: {grid_uh_runtime}")
+        
         log.debug('Done routing to pour_point')
         log.debug('rout_data: %s, %s', rout_data['unit_hydrograph'].min(),
                   rout_data['unit_hydrograph'].max())
@@ -460,6 +478,7 @@ def gen_uh_run(uh_box, fdr_data, fdr_vatts, dom_data, outlet, config_dict,
                   rout_data['fraction'].sum())
 
         # -------------------------------------------------------- #
+
 
         # -------------------------------------------------------- #
         # aggregate
@@ -576,11 +595,6 @@ def gen_uh_run(uh_box, fdr_data, fdr_vatts, dom_data, outlet, config_dict,
     outlet.cell_id_source = dom_data['cell_ids'][y, x]
     outlet.x_source = x
     outlet.y_source = y
-
-    # Make sure the inds are all greater than zero, ref: Github #79
-    assert all(outlet.cell_id_source >= 0)
-    assert all(outlet.x_source >= 0)
-    assert all(outlet.y_source >= 0)
     # ---------------------------------------------------------------- #
     return outlet
 # -------------------------------------------------------------------- #
@@ -625,7 +639,7 @@ def gen_uh_final(outlets, dom_data, config_dict, directories):
     log.info('Location of Log: %s', log_tar)
     log.info('Location of Parmeter File %s', param_file)
 
-    close_logger()
+    #close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #
@@ -652,3 +666,4 @@ def store_result(result):
     '''
     results[result.cell_id] = result
 # -------------------------------------------------------------------- #
+
