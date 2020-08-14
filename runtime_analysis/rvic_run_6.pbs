@@ -7,7 +7,7 @@
 #PBS -o $TMP/rvic_run_output
 #PBS -N rvic_run_6
 
-cd /storage/home/sangwonl/RVIC
+cd ~/RVIC
 
 source venv/bin/activate
 
