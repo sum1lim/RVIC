@@ -18,6 +18,7 @@ plot_gen_uh_final = {}
 plot_convolution_init = {}
 plot_convolution_run = {}
 plot_convolution_loop = {}
+plot_total_convolution_loop = {}
 plot_non_loop_convolution_run = {}
 plot_convolution_final = {}
 plot_output_size = {}
@@ -63,13 +64,14 @@ def plot_all(scenario):
     
     scatter_plot(plot_convolution_run, f"convolution_run runtime: {scenario}", "Runtime (sec)")
     scatter_plot(plot_convolution_loop, f"convolution_run main loop runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_total_convolution_loop, f"convolution_run main loop total runtime: {scenario}", "Runtime (sec)")
     scatter_plot(plot_non_loop_convolution_run, f"Non-loop convolution_run runtime: {scenario}", "Runtime (sec)")
     
     # scatter_plot(plot_convolution_final, f"convolution_final runtime: {scenario}", "Runtime (sec)")
     
     # scatter_plot(plot_output_size, f"Output filesize: {scenario}", "Output size (byte)")
 
-log_file = sys.argv[-1]
+log_file = sys.argv[1]
 with open(log_file, "rt") as f:
 
     for line in f:
@@ -157,6 +159,7 @@ with open(log_file, "rt") as f:
             
             plot_convolution_run[num_cells*subset_length] = convolve_run_runtime
             plot_convolution_loop[num_cells*subset_length] = convolve_loop_runtime
+            plot_total_convolution_loop[num_cells*subset_length] = convolve_loop_runtime*timesteps
             plot_non_loop_convolution_run[num_cells*subset_length] = convolve_run_runtime - convolve_loop_runtime*timesteps
 
             plot_convolution_final[num_cells*subset_length] = convolve_final_runtime
