@@ -7,9 +7,11 @@
 #PBS -o $TMP/rvic_run_output
 #PBS -N rvic_run
 
-cd /storage/home/sangwonl/rvic_run
+cd /storage/home/sangwonl/RVIC
 
-source rvic_venv/bin/activate
+source venv/bin/activate
+
+cd ./runtime_analysis
 
 python rvic_run.py ACCESS1-0_rcp45_r1i1p1
 
