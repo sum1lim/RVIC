@@ -6,17 +6,19 @@ from scipy.stats import pearsonr
 
 scenario = None
 plot_total_runtime = {}
-plot_parameters_init = {}
-plot_parameters_run = {}
+plot_gen_uh_init = {}
+plot_gen_uh_run = {}
 plot_catchment_loop={}
 plot_uh_loop={}
 plot_uh_river_loop={}
 plot_grid_uh_loop={}
-plot_parameters_loop = {}
-plot_parameters_final = {}
+plot_gen_uh_loop = {}
+plot_non_loop_gen_uh_run = {}
+plot_gen_uh_final = {}
 plot_convolution_init = {}
 plot_convolution_run = {}
 plot_convolution_loop = {}
+plot_non_loop_convolution_run = {}
 plot_convolution_final = {}
 plot_output_size = {}
 
@@ -26,7 +28,7 @@ def scatter_plot(plot_dict, title, yaxis):
 
     r_value = pearsonr(x, y)[0]
     p_value = pearsonr(x, y)[1]
-    print("{}: {:.5f}, {:.5f}".format(title, r_value, p_value))
+    print("{}: {:.10f}, {:.10f}".format(title, r_value, p_value))
 
     plt.scatter(x, y)
 
@@ -45,21 +47,23 @@ def init_dicts():
 def plot_all(scenario):
     scatter_plot(plot_total_runtime, f"Total runtime: {scenario}", "Runtime (sec)")
 
-    # scatter_plot(plot_parameters_init, f"parameters_init runtime: {scenario}", "Runtime (sec)")
+    # scatter_plot(plot_gen_uh_init, f"gen_uh_init runtime: {scenario}", "Runtime (sec)")
     
-    scatter_plot(plot_parameters_run, f"parameters_run runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_gen_uh_run, f"gen_uh_run runtime: {scenario}", "Runtime (sec)")
     scatter_plot(plot_catchment_loop, f"catchment loop runtime: {scenario}", "Runtime (sec)")
     scatter_plot(plot_uh_loop, f"uh loop runtime: {scenario}", "Runtime (sec)")
-    scatter_plot(plot_uh_river_loop, f"uh river loop runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_uh_river_loop, f"uh_river loop runtime: {scenario}", "Runtime (sec)")
     scatter_plot(plot_grid_uh_loop, f"grid_uh loop runtime: {scenario}", "Runtime (sec)")
-    scatter_plot(plot_parameters_loop, f"Parameters main loops runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_gen_uh_loop, f"gen_uh_run main loops runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_non_loop_gen_uh_run, f"Non-loop gen_uh_run runtime: {scenario}", "Runtime (sec)")
     
-    # scatter_plot(plot_parameters_final, f"parameters_final runtime: {scenario}", "Runtime (sec)")
+    # scatter_plot(plot_gen_uh_final, f"gen_uh_final runtime: {scenario}", "Runtime (sec)")
     
     # scatter_plot(plot_convolution_init, f"convolution_init runtime: {scenario}", "Runtime (sec)")
     
     scatter_plot(plot_convolution_run, f"convolution_run runtime: {scenario}", "Runtime (sec)")
-    scatter_plot(plot_convolution_loop, f"Convolution main loop runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_convolution_loop, f"convolution_run main loop runtime: {scenario}", "Runtime (sec)")
+    scatter_plot(plot_non_loop_convolution_run, f"Non-loop convolution_run runtime: {scenario}", "Runtime (sec)")
     
     # scatter_plot(plot_convolution_final, f"convolution_final runtime: {scenario}", "Runtime (sec)")
     
@@ -76,9 +80,9 @@ with open(log_file, "rt") as f:
                     plot_all(scenario)
                     (
                         plot_total_runtime, 
-                        plot_parameters_init, 
-                        plot_parameters_run,
-                        plot_parameters_final,
+                        plot_gen_uh_init, 
+                        plot_gen_uh_run,
+                        plot_gen_uh_final,
                         plot_convolution_init,
                         plot_convolution_run,
                         plot_convolution_final,
@@ -131,27 +135,30 @@ with open(log_file, "rt") as f:
                 convolve_loop_runtime = float(line.split(": ")[1])
 
         elif "-------------------------------------------------------" in line:
-            parameters_loops_runtime = catchment_runtime + uh_runtime + uh_river_runtime + grid_uh_runtime
+            
+            gen_uh_loops_runtime = catchment_runtime + uh_runtime + uh_river_runtime + grid_uh_runtime
             plot_total_runtime[num_cells*subset_length] = total_run_time
             
             plot_output_size[num_cells*subset_length] = output_size
             
-            plot_parameters_init[num_cells*subset_length] = param_init_runtime
+            plot_gen_uh_init[num_cells*subset_length] = param_init_runtime
             
-            plot_parameters_run[num_cells*subset_length] = param_run_runtime
+            plot_gen_uh_run[num_cells*subset_length] = param_run_runtime
             plot_catchment_loop[num_cells*subset_length] = catchment_runtime
             plot_uh_loop[num_cells*subset_length] = uh_runtime
             plot_uh_river_loop[num_cells*subset_length] = uh_river_runtime
             plot_grid_uh_loop[num_cells*subset_length] = grid_uh_runtime
-            plot_parameters_loop[num_cells*subset_length] = parameters_loops_runtime
+            plot_gen_uh_loop[num_cells*subset_length] = gen_uh_loops_runtime
+            plot_non_loop_gen_uh_run[num_cells*subset_length] = param_run_runtime - gen_uh_loops_runtime
             
-            plot_parameters_final[num_cells*subset_length] = param_final_runtime
+            plot_gen_uh_final[num_cells*subset_length] = param_final_runtime
             
             plot_convolution_init[num_cells*subset_length] = convolve_init_runtime
             
             plot_convolution_run[num_cells*subset_length] = convolve_run_runtime
             plot_convolution_loop[num_cells*subset_length] = convolve_loop_runtime
-            
+            plot_non_loop_convolution_run[num_cells*subset_length] = convolve_run_runtime - convolve_loop_runtime*timesteps
+
             plot_convolution_final[num_cells*subset_length] = convolve_final_runtime
 
 plot_all(scenario)
