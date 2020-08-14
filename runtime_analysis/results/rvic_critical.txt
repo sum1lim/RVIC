@@ -1,0 +1,450 @@
+CRITICAL:root:cell_count: 1
+CRITICAL:parameters>> init: 0.23271 sec
+CRITICAL:rvic:init: 0.23271 sec
+CRITICAL:parameters>> run: 0.4608 sec
+CRITICAL:rvic:run: 0.4608 sec
+CRITICAL:parameters>> final: 6.24061 sec
+CRITICAL:rvic:final: 6.24061 sec
+CRITICAL:convolution>> init: 0.13474 sec
+CRITICAL:rvic:init: 0.13474 sec
+CRITICAL:convolution>> run: 228.16638 sec
+CRITICAL:rvic:run: 228.16638 sec
+CRITICAL:convolution>> final: 0.02512 sec
+CRITICAL:rvic:final: 0.02512 sec
+CRITICAL:root:-----total_run_time for 1 cells: 235.26706 sec-----
+
+CRITICAL:root:cell_count: 6
+CRITICAL:parameters>> init: 0.29081 sec
+CRITICAL:rvic:init: 0.29081 sec
+CRITICAL:parameters>> run: 0.52983 sec
+CRITICAL:rvic:run: 0.52983 sec
+CRITICAL:parameters>> final: 6.49498 sec
+CRITICAL:rvic:final: 6.49498 sec
+CRITICAL:convolution>> init: 0.0739 sec
+CRITICAL:rvic:init: 0.0739 sec
+CRITICAL:convolution>> run: 229.10601 sec
+CRITICAL:rvic:run: 229.10601 sec
+CRITICAL:convolution>> final: 0.02137 sec
+CRITICAL:rvic:final: 0.02137 sec
+CRITICAL:root:-----total_run_time for 6 cells: 236.52234 sec-----
+
+CRITICAL:root:cell_count: 10
+CRITICAL:parameters>> init: 0.22192 sec
+CRITICAL:rvic:init: 0.22192 sec
+CRITICAL:parameters>> run: 0.52754 sec
+CRITICAL:rvic:run: 0.52754 sec
+CRITICAL:parameters>> final: 6.24562 sec
+CRITICAL:rvic:final: 6.24562 sec
+CRITICAL:convolution>> init: 0.0715 sec
+CRITICAL:rvic:init: 0.0715 sec
+CRITICAL:convolution>> run: 225.89857 sec
+CRITICAL:rvic:run: 225.89857 sec
+CRITICAL:convolution>> final: 0.02133 sec
+CRITICAL:rvic:final: 0.02133 sec
+CRITICAL:root:-----total_run_time for 10 cells: 232.99336 sec-----
+
+CRITICAL:root:cell_count: 11
+CRITICAL:parameters>> init: 0.29584 sec
+CRITICAL:rvic:init: 0.29584 sec
+CRITICAL:parameters>> run: 0.51939 sec
+CRITICAL:rvic:run: 0.51939 sec
+CRITICAL:parameters>> final: 6.1299 sec
+CRITICAL:rvic:final: 6.1299 sec
+CRITICAL:convolution>> init: 0.06313 sec
+CRITICAL:rvic:init: 0.06313 sec
+CRITICAL:convolution>> run: 224.93941 sec
+CRITICAL:rvic:run: 224.93941 sec
+CRITICAL:convolution>> final: 0.02414 sec
+CRITICAL:rvic:final: 0.02414 sec
+CRITICAL:root:-----total_run_time for 11 cells: 231.97843 sec-----
+
+CRITICAL:root:cell_count: 17
+CRITICAL:parameters>> init: 0.25161 sec
+CRITICAL:rvic:init: 0.25161 sec
+CRITICAL:parameters>> run: 0.53996 sec
+CRITICAL:rvic:run: 0.53996 sec
+CRITICAL:parameters>> final: 6.15467 sec
+CRITICAL:rvic:final: 6.15467 sec
+CRITICAL:convolution>> init: 0.10046 sec
+CRITICAL:rvic:init: 0.10046 sec
+CRITICAL:convolution>> run: 222.13691 sec
+CRITICAL:rvic:run: 222.13691 sec
+CRITICAL:convolution>> final: 0.02523 sec
+CRITICAL:rvic:final: 0.02523 sec
+CRITICAL:root:-----total_run_time for 17 cells: 229.21514 sec-----
+
+CRITICAL:root:cell_count: 50
+CRITICAL:parameters>> init: 0.17811 sec
+CRITICAL:rvic:init: 0.17811 sec
+CRITICAL:parameters>> run: 0.55685 sec
+CRITICAL:rvic:run: 0.55685 sec
+CRITICAL:parameters>> final: 6.20657 sec
+CRITICAL:rvic:final: 6.20657 sec
+CRITICAL:convolution>> init: 0.06472 sec
+CRITICAL:rvic:init: 0.06472 sec
+CRITICAL:convolution>> run: 226.99811 sec
+CRITICAL:rvic:run: 226.99811 sec
+CRITICAL:convolution>> final: 0.03046 sec
+CRITICAL:rvic:final: 0.03046 sec
+CRITICAL:root:-----total_run_time for 50 cells: 234.04181 sec-----
+
+CRITICAL:root:cell_count: 67
+CRITICAL:parameters>> init: 0.14921 sec
+CRITICAL:rvic:init: 0.14921 sec
+CRITICAL:parameters>> run: 0.45084 sec
+CRITICAL:rvic:run: 0.45084 sec
+CRITICAL:parameters>> final: 6.33253 sec
+CRITICAL:rvic:final: 6.33253 sec
+CRITICAL:convolution>> init: 0.06698 sec
+CRITICAL:rvic:init: 0.06698 sec
+CRITICAL:convolution>> run: 224.35642 sec
+CRITICAL:rvic:run: 224.35642 sec
+CRITICAL:convolution>> final: 0.01852 sec
+CRITICAL:rvic:final: 0.01852 sec
+CRITICAL:root:-----total_run_time for 67 cells: 231.38079 sec-----
+
+CRITICAL:root:cell_count: 140
+CRITICAL:parameters>> init: 0.30103 sec
+CRITICAL:rvic:init: 0.30103 sec
+CRITICAL:parameters>> run: 0.59106 sec
+CRITICAL:rvic:run: 0.59106 sec
+CRITICAL:parameters>> final: 6.49956 sec
+CRITICAL:rvic:final: 6.49956 sec
+CRITICAL:convolution>> init: 0.06492 sec
+CRITICAL:rvic:init: 0.06492 sec
+CRITICAL:convolution>> run: 223.65079 sec
+CRITICAL:rvic:run: 223.65079 sec
+CRITICAL:convolution>> final: 0.02656 sec
+CRITICAL:rvic:final: 0.02656 sec
+CRITICAL:root:-----total_run_time for 140 cells: 231.14135 sec-----
+
+CRITICAL:root:cell_count: 282
+CRITICAL:parameters>> init: 0.32234 sec
+CRITICAL:rvic:init: 0.32234 sec
+CRITICAL:parameters>> run: 0.78612 sec
+CRITICAL:rvic:run: 0.78612 sec
+CRITICAL:parameters>> final: 6.26725 sec
+CRITICAL:rvic:final: 6.26725 sec
+CRITICAL:convolution>> init: 0.0712 sec
+CRITICAL:rvic:init: 0.0712 sec
+CRITICAL:convolution>> run: 228.33866 sec
+CRITICAL:rvic:run: 228.33866 sec
+CRITICAL:convolution>> final: 0.0279 sec
+CRITICAL:rvic:final: 0.0279 sec
+CRITICAL:root:-----total_run_time for 282 cells: 235.82136 sec-----
+
+CRITICAL:root:cell_count: 360
+CRITICAL:parameters>> init: 0.19481 sec
+CRITICAL:rvic:init: 0.19481 sec
+CRITICAL:parameters>> run: 0.80121 sec
+CRITICAL:rvic:run: 0.80121 sec
+CRITICAL:parameters>> final: 5.82357 sec
+CRITICAL:rvic:final: 5.82357 sec
+CRITICAL:convolution>> init: 0.07531 sec
+CRITICAL:rvic:init: 0.07531 sec
+CRITICAL:convolution>> run: 227.43458 sec
+CRITICAL:rvic:run: 227.43458 sec
+CRITICAL:convolution>> final: 0.06873 sec
+CRITICAL:rvic:final: 0.06873 sec
+CRITICAL:root:-----total_run_time for 360 cells: 234.40469 sec-----
+
+CRITICAL:root:cell_count: 361
+CRITICAL:parameters>> init: 0.23175 sec
+CRITICAL:rvic:init: 0.23175 sec
+CRITICAL:parameters>> run: 0.77868 sec
+CRITICAL:rvic:run: 0.77868 sec
+CRITICAL:parameters>> final: 6.54339 sec
+CRITICAL:rvic:final: 6.54339 sec
+CRITICAL:convolution>> init: 0.08227 sec
+CRITICAL:rvic:init: 0.08227 sec
+CRITICAL:convolution>> run: 229.26793 sec
+CRITICAL:rvic:run: 229.26793 sec
+CRITICAL:convolution>> final: 0.02387 sec
+CRITICAL:rvic:final: 0.02387 sec
+CRITICAL:root:-----total_run_time for 361 cells: 236.93444 sec-----
+
+CRITICAL:root:cell_count: 486
+CRITICAL:parameters>> init: 0.16444 sec
+CRITICAL:rvic:init: 0.16444 sec
+CRITICAL:parameters>> run: 0.87258 sec
+CRITICAL:rvic:run: 0.87258 sec
+CRITICAL:parameters>> final: 6.53998 sec
+CRITICAL:rvic:final: 6.53998 sec
+CRITICAL:convolution>> init: 0.08341 sec
+CRITICAL:rvic:init: 0.08341 sec
+CRITICAL:convolution>> run: 236.92258 sec
+CRITICAL:rvic:run: 236.92258 sec
+CRITICAL:convolution>> final: 0.02506 sec
+CRITICAL:rvic:final: 0.02506 sec
+CRITICAL:root:-----total_run_time for 486 cells: 244.6149 sec-----
+
+CRITICAL:root:cell_count: 626
+CRITICAL:parameters>> init: 0.20499 sec
+CRITICAL:rvic:init: 0.20499 sec
+CRITICAL:parameters>> run: 1.14838 sec
+CRITICAL:rvic:run: 1.14838 sec
+CRITICAL:parameters>> final: 6.06822 sec
+CRITICAL:rvic:final: 6.06822 sec
+CRITICAL:convolution>> init: 0.07311 sec
+CRITICAL:rvic:init: 0.07311 sec
+CRITICAL:convolution>> run: 234.40113 sec
+CRITICAL:rvic:run: 234.40113 sec
+CRITICAL:convolution>> final: 0.02426 sec
+CRITICAL:rvic:final: 0.02426 sec
+CRITICAL:root:-----total_run_time for 626 cells: 241.92656 sec-----
+
+CRITICAL:root:cell_count: 631
+CRITICAL:parameters>> init: 0.17716 sec
+CRITICAL:rvic:init: 0.17716 sec
+CRITICAL:parameters>> run: 0.98676 sec
+CRITICAL:rvic:run: 0.98676 sec
+CRITICAL:parameters>> final: 6.69011 sec
+CRITICAL:rvic:final: 6.69011 sec
+CRITICAL:convolution>> init: 0.099 sec
+CRITICAL:rvic:init: 0.099 sec
+CRITICAL:convolution>> run: 235.11385 sec
+CRITICAL:rvic:run: 235.11385 sec
+CRITICAL:convolution>> final: 0.02661 sec
+CRITICAL:rvic:final: 0.02661 sec
+CRITICAL:root:-----total_run_time for 631 cells: 243.10098 sec-----
+
+CRITICAL:root:cell_count: 1351
+CRITICAL:parameters>> init: 0.15303 sec
+CRITICAL:rvic:init: 0.15303 sec
+CRITICAL:parameters>> run: 0.51154 sec
+CRITICAL:rvic:run: 0.51154 sec
+CRITICAL:parameters>> final: 5.98761 sec
+CRITICAL:rvic:final: 5.98761 sec
+CRITICAL:convolution>> init: 0.06272 sec
+CRITICAL:rvic:init: 0.06272 sec
+CRITICAL:convolution>> run: 225.91203 sec
+CRITICAL:rvic:run: 225.91203 sec
+CRITICAL:convolution>> final: 0.01921 sec
+CRITICAL:rvic:final: 0.01921 sec
+CRITICAL:root:-----total_run_time for 1351 cells: 232.65062 sec-----
+
+CRITICAL:root:cell_count: 1948
+CRITICAL:parameters>> init: 0.22707 sec
+CRITICAL:rvic:init: 0.22707 sec
+CRITICAL:parameters>> run: 2.03827 sec
+CRITICAL:rvic:run: 2.03827 sec
+CRITICAL:parameters>> final: 6.14735 sec
+CRITICAL:rvic:final: 6.14735 sec
+CRITICAL:convolution>> init: 0.09055 sec
+CRITICAL:rvic:init: 0.09055 sec
+CRITICAL:convolution>> run: 249.47896 sec
+CRITICAL:rvic:run: 249.47896 sec
+CRITICAL:convolution>> final: 0.02382 sec
+CRITICAL:rvic:final: 0.02382 sec
+CRITICAL:root:-----total_run_time for 1948 cells: 258.01179 sec-----
+
+CRITICAL:root:cell_count: 2836
+CRITICAL:parameters>> init: 0.24816 sec
+CRITICAL:rvic:init: 0.24816 sec
+CRITICAL:parameters>> run: 2.65744 sec
+CRITICAL:rvic:run: 2.65744 sec
+CRITICAL:parameters>> final: 6.11064 sec
+CRITICAL:rvic:final: 6.11064 sec
+CRITICAL:convolution>> init: 0.13009 sec
+CRITICAL:rvic:init: 0.13009 sec
+CRITICAL:convolution>> run: 263.29893 sec
+CRITICAL:rvic:run: 263.29893 sec
+CRITICAL:convolution>> final: 0.05623 sec
+CRITICAL:rvic:final: 0.05623 sec
+CRITICAL:root:-----total_run_time for 2836 cells: 272.50782 sec-----
+
+CRITICAL:root:cell_count: 2867
+CRITICAL:parameters>> init: 0.29073 sec
+CRITICAL:rvic:init: 0.29073 sec
+CRITICAL:parameters>> run: 2.69254 sec
+CRITICAL:rvic:run: 2.69254 sec
+CRITICAL:parameters>> final: 6.43113 sec
+CRITICAL:rvic:final: 6.43113 sec
+CRITICAL:convolution>> init: 0.09644 sec
+CRITICAL:rvic:init: 0.09644 sec
+CRITICAL:convolution>> run: 256.34937 sec
+CRITICAL:rvic:run: 256.34937 sec
+CRITICAL:convolution>> final: 0.02284 sec
+CRITICAL:rvic:final: 0.02284 sec
+CRITICAL:root:-----total_run_time for 2867 cells: 265.88917 sec-----
+
+CRITICAL:root:cell_count: 2868
+CRITICAL:parameters>> init: 0.19156 sec
+CRITICAL:rvic:init: 0.19156 sec
+CRITICAL:parameters>> run: 2.66764 sec
+CRITICAL:rvic:run: 2.66764 sec
+CRITICAL:parameters>> final: 6.39708 sec
+CRITICAL:rvic:final: 6.39708 sec
+CRITICAL:convolution>> init: 0.08419 sec
+CRITICAL:rvic:init: 0.08419 sec
+CRITICAL:convolution>> run: 257.27909 sec
+CRITICAL:rvic:run: 257.27909 sec
+CRITICAL:convolution>> final: 0.02013 sec
+CRITICAL:rvic:final: 0.02013 sec
+CRITICAL:root:-----total_run_time for 2868 cells: 266.64673 sec-----
+
+CRITICAL:root:cell_count: 2900
+CRITICAL:parameters>> init: 0.21222 sec
+CRITICAL:rvic:init: 0.21222 sec
+CRITICAL:parameters>> run: 2.73442 sec
+CRITICAL:rvic:run: 2.73442 sec
+CRITICAL:parameters>> final: 6.3866 sec
+CRITICAL:rvic:final: 6.3866 sec
+CRITICAL:convolution>> init: 0.09726 sec
+CRITICAL:rvic:init: 0.09726 sec
+CRITICAL:convolution>> run: 262.07112 sec
+CRITICAL:rvic:run: 262.07112 sec
+CRITICAL:convolution>> final: 0.03034 sec
+CRITICAL:rvic:final: 0.03034 sec
+CRITICAL:root:-----total_run_time for 2900 cells: 271.53858 sec-----
+
+CRITICAL:root:cell_count: 2925
+CRITICAL:parameters>> init: 0.23487 sec
+CRITICAL:rvic:init: 0.23487 sec
+CRITICAL:parameters>> run: 2.74372 sec
+CRITICAL:rvic:run: 2.74372 sec
+CRITICAL:parameters>> final: 6.00728 sec
+CRITICAL:rvic:final: 6.00728 sec
+CRITICAL:convolution>> init: 0.08127 sec
+CRITICAL:rvic:init: 0.08127 sec
+CRITICAL:convolution>> run: 258.07626 sec
+CRITICAL:rvic:run: 258.07626 sec
+CRITICAL:convolution>> final: 0.02596 sec
+CRITICAL:rvic:final: 0.02596 sec
+CRITICAL:root:-----total_run_time for 2925 cells: 267.17842 sec-----
+
+CRITICAL:root:cell_count: 3921
+CRITICAL:parameters>> init: 0.17769 sec
+CRITICAL:rvic:init: 0.17769 sec
+CRITICAL:parameters>> run: 4.31721 sec
+CRITICAL:rvic:run: 4.31721 sec
+CRITICAL:parameters>> final: 6.30274 sec
+CRITICAL:rvic:final: 6.30274 sec
+CRITICAL:convolution>> init: 0.10918 sec
+CRITICAL:rvic:init: 0.10918 sec
+CRITICAL:convolution>> run: 264.58751 sec
+CRITICAL:rvic:run: 264.58751 sec
+CRITICAL:convolution>> final: 0.02089 sec
+CRITICAL:rvic:final: 0.02089 sec
+CRITICAL:root:-----total_run_time for 3921 cells: 275.52103 sec-----
+
+CRITICAL:root:cell_count: 3342
+CRITICAL:parameters>> init: 0.18089 sec
+CRITICAL:rvic:init: 0.18089 sec
+CRITICAL:parameters>> run: 3.03322 sec
+CRITICAL:rvic:run: 3.03322 sec
+CRITICAL:parameters>> final: 6.67827 sec
+CRITICAL:rvic:final: 6.67827 sec
+CRITICAL:convolution>> init: 0.09881 sec
+CRITICAL:rvic:init: 0.09881 sec
+CRITICAL:convolution>> run: 263.7859 sec
+CRITICAL:rvic:run: 263.7859 sec
+CRITICAL:convolution>> final: 0.04262 sec
+CRITICAL:rvic:final: 0.04262 sec
+CRITICAL:root:-----total_run_time for 3342 cells: 273.82639 sec-----
+
+CRITICAL:root:cell_count: 4558
+CRITICAL:parameters>> init: 0.20699 sec
+CRITICAL:rvic:init: 0.20699 sec
+CRITICAL:parameters>> run: 4.0697 sec
+CRITICAL:rvic:run: 4.0697 sec
+CRITICAL:parameters>> final: 6.25999 sec
+CRITICAL:rvic:final: 6.25999 sec
+CRITICAL:convolution>> init: 0.14708 sec
+CRITICAL:rvic:init: 0.14708 sec
+CRITICAL:convolution>> run: 347.39188 sec
+CRITICAL:rvic:run: 347.39188 sec
+CRITICAL:convolution>> final: 0.08556 sec
+CRITICAL:rvic:final: 0.08556 sec
+CRITICAL:root:-----total_run_time for 4558 cells: 358.16711 sec-----
+
+CRITICAL:root:cell_count: 4708
+CRITICAL:parameters>> init: 0.51118 sec
+CRITICAL:rvic:init: 0.51118 sec
+CRITICAL:parameters>> run: 7.96716 sec
+CRITICAL:rvic:run: 7.96716 sec
+CRITICAL:parameters>> final: 12.17956 sec
+CRITICAL:rvic:final: 12.17956 sec
+CRITICAL:convolution>> init: 0.37273 sec
+CRITICAL:rvic:init: 0.37273 sec
+CRITICAL:convolution>> run: 407.32171 sec
+CRITICAL:rvic:run: 407.32171 sec
+CRITICAL:convolution>> final: 0.07966 sec
+CRITICAL:rvic:final: 0.07966 sec
+CRITICAL:root:-----total_run_time for 4708 cells: 428.43948 sec-----
+
+CRITICAL:root:cell_count: 5248
+CRITICAL:parameters>> init: 0.73661 sec
+CRITICAL:rvic:init: 0.73661 sec
+CRITICAL:parameters>> run: 6.53316 sec
+CRITICAL:rvic:run: 6.53316 sec
+CRITICAL:parameters>> final: 7.64135 sec
+CRITICAL:rvic:final: 7.64135 sec
+CRITICAL:convolution>> init: 0.17858 sec
+CRITICAL:rvic:init: 0.17858 sec
+CRITICAL:convolution>> run: 372.13163 sec
+CRITICAL:rvic:run: 372.13163 sec
+CRITICAL:convolution>> final: 0.06264 sec
+CRITICAL:rvic:final: 0.06264 sec
+CRITICAL:root:-----total_run_time for 5248 cells: 387.29028 sec-----
+
+CRITICAL:root:cell_count: 5266
+CRITICAL:parameters>> init: 0.76757 sec
+CRITICAL:rvic:init: 0.76757 sec
+CRITICAL:parameters>> run: 6.59839 sec
+CRITICAL:rvic:run: 6.59839 sec
+CRITICAL:parameters>> final: 7.29642 sec
+CRITICAL:rvic:final: 7.29642 sec
+CRITICAL:convolution>> init: 0.26873 sec
+CRITICAL:rvic:init: 0.26873 sec
+CRITICAL:convolution>> run: 369.70391 sec
+CRITICAL:rvic:run: 369.70391 sec
+CRITICAL:convolution>> final: 0.11853 sec
+CRITICAL:rvic:final: 0.11853 sec
+CRITICAL:root:-----total_run_time for 5266 cells: 384.76104 sec-----
+
+CRITICAL:root:cell_count: 5363
+CRITICAL:parameters>> init: 0.61263 sec
+CRITICAL:rvic:init: 0.61263 sec
+CRITICAL:parameters>> run: 6.67196 sec
+CRITICAL:rvic:run: 6.67196 sec
+CRITICAL:parameters>> final: 9.143 sec
+CRITICAL:rvic:final: 9.143 sec
+CRITICAL:convolution>> init: 0.16771 sec
+CRITICAL:rvic:init: 0.16771 sec
+CRITICAL:convolution>> run: 320.64885 sec
+CRITICAL:rvic:run: 320.64885 sec
+CRITICAL:convolution>> final: 0.11496 sec
+CRITICAL:rvic:final: 0.11496 sec
+CRITICAL:root:-----total_run_time for 5363 cells: 337.36643 sec-----
+
+CRITICAL:root:cell_count: 5404
+CRITICAL:parameters>> init: 0.68111 sec
+CRITICAL:rvic:init: 0.68111 sec
+CRITICAL:parameters>> run: 6.73825 sec
+CRITICAL:rvic:run: 6.73825 sec
+CRITICAL:parameters>> final: 6.96579 sec
+CRITICAL:rvic:final: 6.96579 sec
+CRITICAL:convolution>> init: 0.17584 sec
+CRITICAL:rvic:init: 0.17584 sec
+CRITICAL:convolution>> run: 333.79508 sec
+CRITICAL:rvic:run: 333.79508 sec
+CRITICAL:convolution>> final: 0.05192 sec
+CRITICAL:rvic:final: 0.05192 sec
+CRITICAL:root:-----total_run_time for 5404 cells: 348.41346 sec-----
+
+CRITICAL:root:cell_count: 7484
+CRITICAL:parameters>> init: 0.51717 sec
+CRITICAL:rvic:init: 0.51717 sec
+CRITICAL:parameters>> run: 9.31878 sec
+CRITICAL:rvic:run: 9.31878 sec
+CRITICAL:parameters>> final: 7.12274 sec
+CRITICAL:rvic:final: 7.12274 sec
+CRITICAL:convolution>> init: 0.13257 sec
+CRITICAL:rvic:init: 0.13257 sec
+CRITICAL:convolution>> run: 396.4582 sec
+CRITICAL:rvic:run: 396.4582 sec
+CRITICAL:convolution>> final: 0.06095 sec
+CRITICAL:rvic:final: 0.06095 sec
+CRITICAL:root:-----total_run_time for 7484 cells: 413.61643 sec-----
+
