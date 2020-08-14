@@ -1,0 +1,39 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=2
+#PBS -l vmem=24000mb
+#PBS -l walltime=24:00:00
+#PBS -l file=1gb
+#PBS -e ~/RVIC/runtime_analysis/results
+#PBS -o $TMP/rvic_run_output
+#PBS -N rvic_run
+
+cd ~/RVIC
+
+source venv/bin/activate
+
+cd ./runtime_analysis
+
+python rvic_run.py ACCESS1-0_rcp45_r1i1p1
+
+python rvic_run.py ACCESS1-0_rcp85_r1i1p1
+
+python rvic_run.py CanESM2_rcp45_r1i1p1
+
+python rvic_run.py CanESM2_rcp85_r1i1p1
+
+python rvic_run.py CCSM4_rcp45_r2i1p1
+
+python rvic_run.py CCSM4_rcp85_r2i1p1
+
+python rvic_run.py CNRM-CM5_rcp45_r1i1p1
+
+python rvic_run.py CNRM-CM5_rcp85_r1i1p1
+
+python rvic_run.py HadGEM2-ES_rcp45_r1i1p1
+
+python rvic_run.py HadGEM2-ES_rcp85_r1i1p1
+
+python rvic_run.py MPI-ESM-LR_rcp45_r3i1p1
+
+python rvic_run.py MPI-ESM-LR_rcp85_r3i1p1
+

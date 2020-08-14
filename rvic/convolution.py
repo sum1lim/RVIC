@@ -15,6 +15,7 @@ structure.
 Major updates to the...
 '''
 import os
+import time
 from collections import OrderedDict
 from logging import getLogger
 from .core.log import init_logger, close_logger, LOG_NAME
@@ -34,17 +35,21 @@ from .core.pycompat import iteritems
 def convolution(config_file):
     '''
     Top level driver for RVIC convolution model.
-
     Parameters
     ----------
     config_file : str
         Path to RVIC convolution configuration file.
     '''
-
+    # Settup Logging
+    log = getLogger(LOG_NAME)
     # ---------------------------------------------------------------- #
     # Initilize
+    init_start_time = time.time()
     hist_tapes, data_model, rout_var, \
         time_handle, directories = convolution_init(config_file)
+    init_elapsed_time = round(time.time() - init_start_time, 5)
+    log.critical("init: "+str(init_elapsed_time)+" sec")
+
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
@@ -55,13 +60,20 @@ def convolution(config_file):
 
     # ---------------------------------------------------------------- #
     # Run
+    run_start_time = time.time()
     time_handle, hist_tapes = convolution_run(hist_tapes, data_model, rout_var,
                                               time_handle, directories)
+    run_elapsed_time = round(time.time() - run_start_time, 5)
+    log.critical("run: "+str(run_elapsed_time)+" sec")
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Finalize
+    final_start_time = time.time()
     convolution_final(time_handle, hist_tapes)
+    final_elapsed_time = round(time.time() - final_start_time, 5)
+    log.critical("final: "+str(final_elapsed_time)+" sec")
+    close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #
@@ -303,6 +315,10 @@ def convolution_run(hist_tapes, data_model, rout_var, time_handle,
 
     # ---------------------------------------------------------------- #
     # Iterate Through time_handlesteps
+    log.critical(f"upstreams cells: {rout_var.n_sources}")
+    log.critical(f"outlet cells: {rout_var.n_outlets}")
+    log.critical(f"subset length: {rout_var.subset_length}")
+    convolve_runtimes = []
     while True:
         # ------------------------------------------------------------ #
         # Get this time_handlesteps forcing
@@ -318,7 +334,8 @@ def convolution_run(hist_tapes, data_model, rout_var, time_handle,
         # Do the Convolution
         # (end_timestamp is the timestamp at the end of the convolution period)
         if aggcounter == rout_var.agg_tsteps:
-            end_timestamp = rout_var.convolve(aggrunin, time_ord)
+            end_timestamp, convolve_runtime = rout_var.convolve(aggrunin, time_ord)
+            convolve_runtimes.append(convolve_runtime)
             for tracer in RVIC_TRACERS:
                 aggrunin[tracer][:] = 0.0
                 aggcounter = 0
@@ -365,7 +382,11 @@ def convolution_run(hist_tapes, data_model, rout_var, time_handle,
         else:
             break
         # ------------------------------------------------------------ #
-
+    
+    time_steps = len(convolve_runtimes)
+    log.critical(f"timesteps: {time_steps}")
+    log.critical(f"average convolve loop runtime: {sum(convolve_runtimes) / time_steps}")
+    # ---------------------------------------------------------------- #
     # ---------------------------------------------------------------- #
     # Make sure we write out the last history file
     for tapename, tape in iteritems(hist_tapes):
@@ -411,7 +432,7 @@ def convolution_final(time_handle, hist_tapes):
     log.info('Done with rvic convolution.')
     log.info('Location of Log: %s', log_tar)
 
-    close_logger()
+    #close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #

@@ -18,6 +18,7 @@ Now called from make_parameters.py
 
 import numpy as np
 import logging
+import time as timer
 from scipy.interpolate import interp1d
 from .utilities import latlon2yx
 from .share import SECSPERDAY
@@ -136,26 +137,30 @@ def rout(pour_point, uh_box, fdr_data, fdr_atts, rout_dict):
 
     # ---------------------------------------------------------------- #
     # Find all grid cells upstream of pour point
-    catchment, rout_data['fraction'] = search_catchment(to_y, to_x, pour_point,
-                                                        basin['basin_id'],
-                                                        basin_id)
+    catchment, rout_data['fraction'], catchment_runtime = search_catchment(
+        to_y, to_x, pour_point,
+        basin['basin_id'],
+        basin_id
+    )
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Make uh for each grid cell upstream of basin pour point
     # (linear routing model - Saint-Venant equation)
-    uh = make_uh(input_interval, t_cell, catchment['y_inds'],
+    uh, uh_runtime = make_uh(input_interval, t_cell, catchment['y_inds'],
                  catchment['x_inds'], basin['velocity'], basin['diffusion'],
                  basin['flow_distance'])
     # ---------------------------------------------------------------- #
     # Make uh_river by incrementally moving upstream comining uh functions
-    uh_river = make_grid_uh_river(t_uh, t_cell, uh, to_y, to_x, pour_point,
+    uh_river, uh_river_runtime = make_grid_uh_river(t_uh, t_cell, uh, to_y, 
+                                  to_x, pour_point,
                                   catchment['y_inds'], catchment['x_inds'],
                                   catchment['count_ds'])
     # ---------------------------------------------------------------- #
     # Make uh_s for each grid cell upstream of basin pour point
     # (combine IRFs for all grid cells in flow path)
-    uh_s = make_grid_uh(t_uh, t_cell, uh_river, uh_box, to_y, to_x,
+    uh_s, grid_uh_runtime = make_grid_uh(t_uh, t_cell, uh_river, 
+                        uh_box, to_y, to_x,
                         catchment['y_inds'], catchment['x_inds'],
                         catchment['count_ds'])
     # ---------------------------------------------------------------- #
@@ -166,7 +171,7 @@ def rout(pour_point, uh_box, fdr_data, fdr_atts, rout_dict):
         uh_s, t_uh, input_interval, rout_dict['OUTPUT_INTERVAL'],
         catchment['x_inds'], catchment['y_inds'])
     # ---------------------------------------------------------------- #
-    return rout_data
+    return rout_data, catchment_runtime, uh_runtime, uh_river_runtime, grid_uh_runtime
 # -------------------------------------------------------------------- #
 
 
@@ -247,7 +252,7 @@ def search_catchment(to_y, to_x, pour_point, basin_ids, basin_id):
     pathx = np.zeros(bsize, dtype=np.uint32)
 
     cells = 0
-
+    start_time = timer.time()
     for yy, xx in pyzip(byinds, bxinds):
         if in_catch[yy, xx] >= 0:
             # set the old path to zero
@@ -289,8 +294,8 @@ def search_catchment(to_y, to_x, pour_point, basin_ids, basin_id):
                         py = pathy[:cells]
                         px = pathx[:cells]
                         in_catch[py, px] = -1  # set to -1
-                        break
-
+                        break   
+    elapsed_time = timer.time() - start_time
     catchment = {}
     cyinds, cxinds = np.nonzero(in_catch == 1)
     catchment['count_ds'] = count_ds[cyinds, cxinds]
@@ -313,7 +318,7 @@ def search_catchment(to_y, to_x, pour_point, basin_ids, basin_id):
     catchment['x_inds'] = cxinds[ii]
     catchment['y_inds'] = cyinds[ii]
     # ---------------------------------------------------------------- #
-    return catchment, catch_fracs
+    return catchment, catch_fracs, elapsed_time
 # -------------------------------------------------------------------- #
 
 
@@ -328,7 +333,7 @@ def make_uh(dt, t_cell, y_inds, x_inds, velocity, diffusion, xmask):
 
     uh = np.zeros((t_cell, xmask.shape[0], xmask.shape[1]), dtype=np.float64)
     time = np.arange(dt, t_cell * dt + dt, dt, dtype=np.float64)
-
+    start_time = timer.time()
     for y, x in pyzip(y_inds, x_inds):
         xm = xmask[y, x]
         v = velocity[y, x]
@@ -339,7 +344,8 @@ def make_uh(dt, t_cell, y_inds, x_inds, velocity, diffusion, xmask):
 
         # Normalize
         uh[:, y, x] = green / green.sum()
-    return uh
+    elapsed_time = timer.time() - start_time
+    return uh, elapsed_time
 # -------------------------------------------------------------------- #
 
 
@@ -356,7 +362,7 @@ def make_grid_uh_river(t_uh, t_cell, uh, to_y, to_x, pour_point, y_inds,
     x_ind = pour_point.basinx
 
     uh_river = np.zeros((t_uh, uh.shape[1], uh.shape[2]), dtype=np.float64)
-
+    start_time = timer.time()
     for (y, x, d) in pyzip(y_inds, x_inds, count_ds):
         if d > 0:
             yy = to_y[y, x]
@@ -371,8 +377,8 @@ def make_grid_uh_river(t_uh, t_cell, uh, to_y, to_x, pour_point, y_inds,
         else:
             raise ValueError('Got negative value ({0}) for count_ds at y={1}'
                              'x={2}'.format(d, y, x))
-
-    return uh_river
+    elapsed_time = timer.time() - start_time
+    return uh_river, elapsed_time
 # -------------------------------------------------------------------- #
 
 
@@ -388,7 +394,7 @@ def make_grid_uh(t_uh, t_cell, uh_river, uh_box, to_y, to_x, y_inds, x_inds,
 
     unit_hydrograph = np.zeros((t_uh, uh_river.shape[1], uh_river.shape[2]))
     irf_temp = np.zeros(t_uh + t_cell, dtype=np.float64)
-
+    start_time = timer.time()
     for (y, x, d) in pyzip(y_inds, x_inds, count_ds):
         irf_temp[:] = 0.0
         if d > 0:
@@ -400,8 +406,8 @@ def make_grid_uh(t_uh, t_cell, uh_river, uh_box, to_y, to_x, y_inds, x_inds,
         else:
             irf_temp[:len(uh_box)] = uh_box[:]
             unit_hydrograph[:, y, x] = irf_temp[:t_uh]
-
-    return unit_hydrograph
+    elapsed_time = timer.time() - start_time
+    return unit_hydrograph, elapsed_time
 # -------------------------------------------------------------------- #
 
 
@@ -447,3 +453,4 @@ def adjust_uh_timestep(unit_hydrograph, t_uh, input_interval, output_interval,
         uh_out /= uh_out.sum(axis=0)
     return uh_out
 # -------------------------------------------------------------------- #
+

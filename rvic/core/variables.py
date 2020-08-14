@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-'''
-variables.py
-'''
 import os
 import numpy as np
+import time
 from netCDF4 import Dataset, date2num, stringtochar
 from logging import getLogger
 from .log import LOG_NAME
@@ -11,7 +8,7 @@ from .time_utility import ord_to_datetime
 from .share import TIMEUNITS, NC_INT, NC_DOUBLE, NC_CHAR
 from .share import RVIC_TRACERS, NcGlobals, SECSPERDAY, MAX_NC_CHARS
 from .share import CALENDAR_KEYS, REFERENCE_DATE, REFERENCE_TIME
-from .convolution_wrapper import rvic_convolve
+from .convolution_wrapper import rvic_convolve, LIBPATH
 from .pycompat import iteritems
 from . import share
 
@@ -298,6 +295,7 @@ class Rvar(object):
 
             # -------------------------------------------------------- #
             # C convolution call
+            start_time = time.time()
             rvic_convolve(self.n_sources,
                           self.n_outlets,
                           self.subset_length,
@@ -309,6 +307,7 @@ class Rvar(object):
                           self.unit_hydrograph[tracer],
                           aggrunin[tracer],
                           self.ring[tracer])
+            elapsed_time = time.time() - start_time
             # -------------------------------------------------------- #
         # ------------------------------------------------------------ #
 
@@ -318,7 +317,7 @@ class Rvar(object):
         self.timestamp = ord_to_datetime(self.time_ord, TIMEUNITS,
                                          calendar=self._calendar)
 
-        return self.timestamp
+        return self.timestamp, elapsed_time
         # ------------------------------------------------------------ #
     # ---------------------------------------------------------------- #
 
@@ -563,3 +562,4 @@ class Rvar(object):
         return filename
     # ---------------------------------------------------------------- #
 # -------------------------------------------------------------------- #
+

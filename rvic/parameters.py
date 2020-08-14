@@ -3,6 +3,7 @@
 RVIC parameter file development driver
 '''
 import os
+import time
 import numpy as np
 import pandas as pd
 from logging import getLogger
@@ -47,17 +48,22 @@ def parameters(config_file, numofproc=1):
 
     # ---------------------------------------------------------------- #
     # Initilize
+    init_start_time = time.time()
     uh_box, fdr_data, fdr_vatts, dom_data, \
         outlets, config_dict, directories = gen_uh_init(config_file)
+    init_elapsed_time = round(time.time() - init_start_time, 5)
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Get main logger
     log = getLogger(LOG_NAME)
+    log.critical("init: "+str(init_elapsed_time)+" sec")
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Run
+    run_start_time = time.time()
+
     if numofproc > 1:
         from multiprocessing import Pool
         pool = Pool(processes=numofproc)
@@ -90,11 +96,18 @@ def parameters(config_file, numofproc=1):
 
     if not outlets:
         raise ValueError('outlets in parameters are empty')
+
+    run_elapsed_time = round(time.time() - run_start_time, 5)
+    log.critical("run: "+str(run_elapsed_time)+" sec")
     # ---------------------------------------------------------------- #
 
     # ---------------------------------------------------------------- #
     # Finally, make the parameter file
+    final_start_time = time.time()
     gen_uh_final(outlets, dom_data, config_dict, directories)
+    final_elapsed_time = round(time.time() - final_start_time, 5)
+    log.critical("final: "+str(final_elapsed_time)+" sec")
+    close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #
@@ -185,7 +198,7 @@ def gen_uh_init(config_file):
         if 'names' in pour_points:
             pour_points.fillna(inplace=True, value='unknown')
             for i, name in enumerate(pour_points.names):
-                pour_points.ix[i, 'names'] = strip_invalid_char(name)
+                pour_points.loc[i, 'names'] = strip_invalid_char(name)
 
         pour_points.drop_duplicates(inplace=True)
         pour_points.dropna()
@@ -436,17 +449,28 @@ def gen_uh_run(uh_box, fdr_data, fdr_vatts, dom_data, outlet, config_dict,
     # ------------------------------------------------------------ #
 
     # ------------------------------------------------------------ #
+
     # Loop over pour points
     n_pour_points = len(outlet.pour_points)
     for j, pour_point in enumerate(outlet.pour_points):
-
         log.info('On pour_point #%s of %s', j + 1, n_pour_points)
 
         # -------------------------------------------------------- #
         # Make the Unit Hydrograph Grid
-        rout_data = rout(pour_point, uh_box, fdr_data, fdr_vatts,
+        (
+            rout_data, 
+            catchment_runtime, 
+            uh_runtime, 
+            uh_river_runtime, 
+            grid_uh_runtime
+        ) = rout(pour_point, uh_box, fdr_data, fdr_vatts,
                          config_dict['ROUTING'])
 
+        log.critical(f"catchment runtime: {catchment_runtime}")
+        log.critical(f"uh runtime: {uh_runtime}")
+        log.critical(f"uh_river runtime: {uh_river_runtime}")
+        log.critical(f"grid_uh runtime: {grid_uh_runtime}")
+        
         log.debug('Done routing to pour_point')
         log.debug('rout_data: %s, %s', rout_data['unit_hydrograph'].min(),
                   rout_data['unit_hydrograph'].max())
@@ -454,6 +478,7 @@ def gen_uh_run(uh_box, fdr_data, fdr_vatts, dom_data, outlet, config_dict,
                   rout_data['fraction'].sum())
 
         # -------------------------------------------------------- #
+
 
         # -------------------------------------------------------- #
         # aggregate
@@ -614,7 +639,7 @@ def gen_uh_final(outlets, dom_data, config_dict, directories):
     log.info('Location of Log: %s', log_tar)
     log.info('Location of Parmeter File %s', param_file)
 
-    close_logger()
+    #close_logger()
     # ---------------------------------------------------------------- #
     return
 # -------------------------------------------------------------------- #
@@ -641,3 +666,4 @@ def store_result(result):
     '''
     results[result.cell_id] = result
 # -------------------------------------------------------------------- #
+
