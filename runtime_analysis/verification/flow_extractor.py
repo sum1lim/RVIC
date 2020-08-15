@@ -44,7 +44,7 @@ def build_dict(file_name):
 
     return daily_mean_dict
 
-def plot(dict1, dict2):
+def plot(title, dict1, dict2):
     lists = sorted(dict1.items()) 
     x, y = zip(*lists)
     plt.plot(x, y, label="After modification")
@@ -53,15 +53,15 @@ def plot(dict1, dict2):
     x, y = zip(*lists)
     plt.plot(x, y, label="Before modification")
 
-    plt.title("RVIC verification (MRAGC)")
+    plt.title(f"RVIC verification ({title})")
     plt.legend(loc="upper right")
     
     plt.show()
 
 
-comaprand = sys.argv[1]
+comparand = sys.argv[1]
 comparator = sys.argv[2]
-RVIC_daily_mean_dict = build_dict(comaprand)
+RVIC_daily_mean_dict = build_dict(comparand)
 PNWNAMET_daily_mean_dict = build_dict(comparator)
 
-plot(RVIC_daily_mean_dict, PNWNAMET_daily_mean_dict)
+plot(comparand.split(".")[0], RVIC_daily_mean_dict, PNWNAMET_daily_mean_dict)
