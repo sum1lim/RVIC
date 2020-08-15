@@ -53,7 +53,9 @@ def plot(title, dict1, dict2):
     x, y = zip(*lists)
     plt.plot(x, y, label="Before modification")
 
-    plt.title(f"RVIC verification ({title})")
+    plt.title(f"RVIC Verification: 1945-2012 PNWNAmet Routed Streamflow ({title})")
+    plt.xlabel("Days in a year")
+    plt.ylabel("Average daily discharge")
     plt.legend(loc="upper right")
     
     plt.show()
