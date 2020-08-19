@@ -1,0 +1,1984 @@
+CRITICAL:root:
+
+CRITICAL:root:MPI-ESM-LR_rcp45_r3i1p1
+
+CRITICAL:parameters>> init: 1.67968 sec
+CRITICAL:rvic:init: 1.67968 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3924696445465088
+CRITICAL:rvic:catchment runtime: 0.3924696445465088
+CRITICAL:gen_uh_run>> uh runtime: 0.0030219554901123047
+CRITICAL:rvic:uh runtime: 0.0030219554901123047
+CRITICAL:gen_uh_run>> uh_river runtime: 0.004846096038818359
+CRITICAL:rvic:uh_river runtime: 0.004846096038818359
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.008572101593017578
+CRITICAL:rvic:grid_uh runtime: 0.008572101593017578
+CRITICAL:parameters>> run: 0.60725 sec
+CRITICAL:rvic:run: 0.60725 sec
+CRITICAL:parameters>> final: 14.04626 sec
+CRITICAL:rvic:final: 14.04626 sec
+CRITICAL:convolution>> init: 0.82763 sec
+CRITICAL:rvic:init: 0.82763 sec
+CRITICAL:convolution_run>> upstreams cells: 1
+CRITICAL:rvic:upstreams cells: 1
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00011209247832966793
+CRITICAL:rvic:average convolve loop runtime: 0.00011209247832966793
+CRITICAL:convolution>> run: 323.03499 sec
+CRITICAL:rvic:run: 323.03499 sec
+CRITICAL:convolution>> final: 0.02411 sec
+CRITICAL:rvic:final: 0.02411 sec
+CRITICAL:root:total run time:340.22608 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------1:-120.8,56.2---------------------------
+CRITICAL:parameters>> init: 0.90074 sec
+CRITICAL:rvic:init: 0.90074 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3600943088531494
+CRITICAL:rvic:catchment runtime: 0.3600943088531494
+CRITICAL:gen_uh_run>> uh runtime: 0.0008101463317871094
+CRITICAL:rvic:uh runtime: 0.0008101463317871094
+CRITICAL:gen_uh_run>> uh_river runtime: 0.030730009078979492
+CRITICAL:rvic:uh_river runtime: 0.030730009078979492
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.01596832275390625
+CRITICAL:rvic:grid_uh runtime: 0.01596832275390625
+CRITICAL:parameters>> run: 0.60312 sec
+CRITICAL:rvic:run: 0.60312 sec
+CRITICAL:parameters>> final: 10.25648 sec
+CRITICAL:rvic:final: 10.25648 sec
+CRITICAL:convolution>> init: 0.0981 sec
+CRITICAL:rvic:init: 0.0981 sec
+CRITICAL:convolution_run>> upstreams cells: 10
+CRITICAL:rvic:upstreams cells: 10
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00011290965776738446
+CRITICAL:rvic:average convolve loop runtime: 0.00011290965776738446
+CRITICAL:convolution>> run: 324.63869 sec
+CRITICAL:rvic:run: 324.63869 sec
+CRITICAL:convolution>> final: 0.07966 sec
+CRITICAL:rvic:final: 0.07966 sec
+CRITICAL:root:total run time:336.58308 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------10:-117.6,55.6---------------------------
+CRITICAL:parameters>> init: 0.72427 sec
+CRITICAL:rvic:init: 0.72427 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3978574275970459
+CRITICAL:rvic:catchment runtime: 0.3978574275970459
+CRITICAL:gen_uh_run>> uh runtime: 0.002464771270751953
+CRITICAL:rvic:uh runtime: 0.002464771270751953
+CRITICAL:gen_uh_run>> uh_river runtime: 0.05218195915222168
+CRITICAL:rvic:uh_river runtime: 0.05218195915222168
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.04033827781677246
+CRITICAL:rvic:grid_uh runtime: 0.04033827781677246
+CRITICAL:parameters>> run: 0.73036 sec
+CRITICAL:rvic:run: 0.73036 sec
+CRITICAL:parameters>> final: 7.86708 sec
+CRITICAL:rvic:final: 7.86708 sec
+CRITICAL:convolution>> init: 0.0888 sec
+CRITICAL:rvic:init: 0.0888 sec
+CRITICAL:convolution_run>> upstreams cells: 41
+CRITICAL:rvic:upstreams cells: 41
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012047284105915529
+CRITICAL:rvic:average convolve loop runtime: 0.00012047284105915529
+CRITICAL:convolution>> run: 306.19427 sec
+CRITICAL:rvic:run: 306.19427 sec
+CRITICAL:convolution>> final: 0.03171 sec
+CRITICAL:rvic:final: 0.03171 sec
+CRITICAL:root:total run time:315.64303 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------41:-117.21875,54.71875---------------------------
+CRITICAL:parameters>> init: 0.53479 sec
+CRITICAL:rvic:init: 0.53479 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3426549434661865
+CRITICAL:rvic:catchment runtime: 0.3426549434661865
+CRITICAL:gen_uh_run>> uh runtime: 0.002650737762451172
+CRITICAL:rvic:uh runtime: 0.002650737762451172
+CRITICAL:gen_uh_run>> uh_river runtime: 0.04091191291809082
+CRITICAL:rvic:uh_river runtime: 0.04091191291809082
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.031558990478515625
+CRITICAL:rvic:grid_uh runtime: 0.031558990478515625
+CRITICAL:parameters>> run: 0.62355 sec
+CRITICAL:rvic:run: 0.62355 sec
+CRITICAL:parameters>> final: 7.97793 sec
+CRITICAL:rvic:final: 7.97793 sec
+CRITICAL:convolution>> init: 0.11034 sec
+CRITICAL:rvic:init: 0.11034 sec
+CRITICAL:convolution_run>> upstreams cells: 47
+CRITICAL:rvic:upstreams cells: 47
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012317093011674383
+CRITICAL:rvic:average convolve loop runtime: 0.00012317093011674383
+CRITICAL:convolution>> run: 307.80662 sec
+CRITICAL:rvic:run: 307.80662 sec
+CRITICAL:convolution>> final: 0.02372 sec
+CRITICAL:rvic:final: 0.02372 sec
+CRITICAL:root:total run time:317.08491 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------47:-119.71875,55.09375---------------------------
+CRITICAL:parameters>> init: 0.38217 sec
+CRITICAL:rvic:init: 0.38217 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3527841567993164
+CRITICAL:rvic:catchment runtime: 0.3527841567993164
+CRITICAL:gen_uh_run>> uh runtime: 0.002642393112182617
+CRITICAL:rvic:uh runtime: 0.002642393112182617
+CRITICAL:gen_uh_run>> uh_river runtime: 0.05945873260498047
+CRITICAL:rvic:uh_river runtime: 0.05945873260498047
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.04445338249206543
+CRITICAL:rvic:grid_uh runtime: 0.04445338249206543
+CRITICAL:parameters>> run: 0.6725 sec
+CRITICAL:rvic:run: 0.6725 sec
+CRITICAL:parameters>> final: 7.84351 sec
+CRITICAL:rvic:final: 7.84351 sec
+CRITICAL:convolution>> init: 0.09518 sec
+CRITICAL:rvic:init: 0.09518 sec
+CRITICAL:convolution_run>> upstreams cells: 50
+CRITICAL:rvic:upstreams cells: 50
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012383308041391162
+CRITICAL:rvic:average convolve loop runtime: 0.00012383308041391162
+CRITICAL:convolution>> run: 305.30232 sec
+CRITICAL:rvic:run: 305.30232 sec
+CRITICAL:convolution>> final: 0.02348 sec
+CRITICAL:rvic:final: 0.02348 sec
+CRITICAL:root:total run time:314.32844 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------50:-121.4,56.1---------------------------
+CRITICAL:parameters>> init: 0.58601 sec
+CRITICAL:rvic:init: 0.58601 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.35619187355041504
+CRITICAL:rvic:catchment runtime: 0.35619187355041504
+CRITICAL:gen_uh_run>> uh runtime: 0.0027899742126464844
+CRITICAL:rvic:uh runtime: 0.0027899742126464844
+CRITICAL:gen_uh_run>> uh_river runtime: 0.05784106254577637
+CRITICAL:rvic:uh_river runtime: 0.05784106254577637
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.04236793518066406
+CRITICAL:rvic:grid_uh runtime: 0.04236793518066406
+CRITICAL:parameters>> run: 0.67545 sec
+CRITICAL:rvic:run: 0.67545 sec
+CRITICAL:parameters>> final: 7.72249 sec
+CRITICAL:rvic:final: 7.72249 sec
+CRITICAL:convolution>> init: 0.09362 sec
+CRITICAL:rvic:init: 0.09362 sec
+CRITICAL:convolution_run>> upstreams cells: 51
+CRITICAL:rvic:upstreams cells: 51
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012661714890574563
+CRITICAL:rvic:average convolve loop runtime: 0.00012661714890574563
+CRITICAL:convolution>> run: 307.85087 sec
+CRITICAL:rvic:run: 307.85087 sec
+CRITICAL:convolution>> final: 0.0212 sec
+CRITICAL:rvic:final: 0.0212 sec
+CRITICAL:root:total run time:316.95616 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------51:-121.34375,56.09375---------------------------
+CRITICAL:parameters>> init: 0.40462 sec
+CRITICAL:rvic:init: 0.40462 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3548891544342041
+CRITICAL:rvic:catchment runtime: 0.3548891544342041
+CRITICAL:gen_uh_run>> uh runtime: 0.0036809444427490234
+CRITICAL:rvic:uh runtime: 0.0036809444427490234
+CRITICAL:gen_uh_run>> uh_river runtime: 0.06160163879394531
+CRITICAL:rvic:uh_river runtime: 0.06160163879394531
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.048040151596069336
+CRITICAL:rvic:grid_uh runtime: 0.048040151596069336
+CRITICAL:parameters>> run: 0.68647 sec
+CRITICAL:rvic:run: 0.68647 sec
+CRITICAL:parameters>> final: 7.50142 sec
+CRITICAL:rvic:final: 7.50142 sec
+CRITICAL:convolution>> init: 0.09331 sec
+CRITICAL:rvic:init: 0.09331 sec
+CRITICAL:convolution_run>> upstreams cells: 67
+CRITICAL:rvic:upstreams cells: 67
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00013499717472522418
+CRITICAL:rvic:average convolve loop runtime: 0.00013499717472522418
+CRITICAL:convolution>> run: 311.51008 sec
+CRITICAL:rvic:run: 311.51008 sec
+CRITICAL:convolution>> final: 0.04138 sec
+CRITICAL:rvic:final: 0.04138 sec
+CRITICAL:root:total run time:320.24374 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------67:-121.21875,56.65625---------------------------
+CRITICAL:parameters>> init: 0.88731 sec
+CRITICAL:rvic:init: 0.88731 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.40425777435302734
+CRITICAL:rvic:catchment runtime: 0.40425777435302734
+CRITICAL:gen_uh_run>> uh runtime: 0.0040361881256103516
+CRITICAL:rvic:uh runtime: 0.0040361881256103516
+CRITICAL:gen_uh_run>> uh_river runtime: 0.05178952217102051
+CRITICAL:rvic:uh_river runtime: 0.05178952217102051
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.0420527458190918
+CRITICAL:rvic:grid_uh runtime: 0.0420527458190918
+CRITICAL:parameters>> run: 0.74814 sec
+CRITICAL:rvic:run: 0.74814 sec
+CRITICAL:parameters>> final: 7.97527 sec
+CRITICAL:rvic:final: 7.97527 sec
+CRITICAL:convolution>> init: 0.09802 sec
+CRITICAL:rvic:init: 0.09802 sec
+CRITICAL:convolution_run>> upstreams cells: 69
+CRITICAL:rvic:upstreams cells: 69
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00013196408341176167
+CRITICAL:rvic:average convolve loop runtime: 0.00013196408341176167
+CRITICAL:convolution>> run: 314.46301 sec
+CRITICAL:rvic:run: 314.46301 sec
+CRITICAL:convolution>> final: 0.04879 sec
+CRITICAL:rvic:final: 0.04879 sec
+CRITICAL:root:total run time:324.22774 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------69:-124.78125,56.09375---------------------------
+CRITICAL:parameters>> init: 0.47725 sec
+CRITICAL:rvic:init: 0.47725 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.37166380882263184
+CRITICAL:rvic:catchment runtime: 0.37166380882263184
+CRITICAL:gen_uh_run>> uh runtime: 0.004525423049926758
+CRITICAL:rvic:uh runtime: 0.004525423049926758
+CRITICAL:gen_uh_run>> uh_river runtime: 0.052474260330200195
+CRITICAL:rvic:uh_river runtime: 0.052474260330200195
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.043619394302368164
+CRITICAL:rvic:grid_uh runtime: 0.043619394302368164
+CRITICAL:parameters>> run: 0.69332 sec
+CRITICAL:rvic:run: 0.69332 sec
+CRITICAL:parameters>> final: 7.20186 sec
+CRITICAL:rvic:final: 7.20186 sec
+CRITICAL:convolution>> init: 0.1025 sec
+CRITICAL:rvic:init: 0.1025 sec
+CRITICAL:convolution_run>> upstreams cells: 71
+CRITICAL:rvic:upstreams cells: 71
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012938374019087317
+CRITICAL:rvic:average convolve loop runtime: 0.00012938374019087317
+CRITICAL:convolution>> run: 310.77309 sec
+CRITICAL:rvic:run: 310.77309 sec
+CRITICAL:convolution>> final: 0.04503 sec
+CRITICAL:rvic:final: 0.04503 sec
+CRITICAL:root:total run time:319.29939 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------71:-124.90625,57.21875---------------------------
+CRITICAL:parameters>> init: 0.74401 sec
+CRITICAL:rvic:init: 0.74401 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3482818603515625
+CRITICAL:rvic:catchment runtime: 0.3482818603515625
+CRITICAL:gen_uh_run>> uh runtime: 0.004339694976806641
+CRITICAL:rvic:uh runtime: 0.004339694976806641
+CRITICAL:gen_uh_run>> uh_river runtime: 0.07359957695007324
+CRITICAL:rvic:uh_river runtime: 0.07359957695007324
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.06297564506530762
+CRITICAL:rvic:grid_uh runtime: 0.06297564506530762
+CRITICAL:parameters>> run: 0.72929 sec
+CRITICAL:rvic:run: 0.72929 sec
+CRITICAL:parameters>> final: 7.49677 sec
+CRITICAL:rvic:final: 7.49677 sec
+CRITICAL:convolution>> init: 0.08713 sec
+CRITICAL:rvic:init: 0.08713 sec
+CRITICAL:convolution_run>> upstreams cells: 83
+CRITICAL:rvic:upstreams cells: 83
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00013504608142437643
+CRITICAL:rvic:average convolve loop runtime: 0.00013504608142437643
+CRITICAL:convolution>> run: 309.41446 sec
+CRITICAL:rvic:run: 309.41446 sec
+CRITICAL:convolution>> final: 0.04795 sec
+CRITICAL:rvic:final: 0.04795 sec
+CRITICAL:root:total run time:318.52589 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------83:-117.03125,56.03125---------------------------
+CRITICAL:parameters>> init: 0.35289 sec
+CRITICAL:rvic:init: 0.35289 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.38659238815307617
+CRITICAL:rvic:catchment runtime: 0.38659238815307617
+CRITICAL:gen_uh_run>> uh runtime: 0.006128072738647461
+CRITICAL:rvic:uh runtime: 0.006128072738647461
+CRITICAL:gen_uh_run>> uh_river runtime: 0.07090616226196289
+CRITICAL:rvic:uh_river runtime: 0.07090616226196289
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.058188438415527344
+CRITICAL:rvic:grid_uh runtime: 0.058188438415527344
+CRITICAL:parameters>> run: 0.76635 sec
+CRITICAL:rvic:run: 0.76635 sec
+CRITICAL:parameters>> final: 8.56116 sec
+CRITICAL:rvic:final: 8.56116 sec
+CRITICAL:convolution>> init: 0.10377 sec
+CRITICAL:rvic:init: 0.10377 sec
+CRITICAL:convolution_run>> upstreams cells: 84
+CRITICAL:rvic:upstreams cells: 84
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00012944999775547857
+CRITICAL:rvic:average convolve loop runtime: 0.00012944999775547857
+CRITICAL:convolution>> run: 308.05363 sec
+CRITICAL:rvic:run: 308.05363 sec
+CRITICAL:convolution>> final: 0.02685 sec
+CRITICAL:rvic:final: 0.02685 sec
+CRITICAL:root:total run time:317.87149 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------84:-122.34375,56.46875---------------------------
+CRITICAL:parameters>> init: 0.41738 sec
+CRITICAL:rvic:init: 0.41738 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3256492614746094
+CRITICAL:rvic:catchment runtime: 0.3256492614746094
+CRITICAL:gen_uh_run>> uh runtime: 0.004037141799926758
+CRITICAL:rvic:uh runtime: 0.004037141799926758
+CRITICAL:gen_uh_run>> uh_river runtime: 0.06898927688598633
+CRITICAL:rvic:uh_river runtime: 0.06898927688598633
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.054788827896118164
+CRITICAL:rvic:grid_uh runtime: 0.054788827896118164
+CRITICAL:parameters>> run: 0.67905 sec
+CRITICAL:rvic:run: 0.67905 sec
+CRITICAL:parameters>> final: 7.29639 sec
+CRITICAL:rvic:final: 7.29639 sec
+CRITICAL:convolution>> init: 0.08704 sec
+CRITICAL:rvic:init: 0.08704 sec
+CRITICAL:convolution_run>> upstreams cells: 85
+CRITICAL:rvic:upstreams cells: 85
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00013846612230569456
+CRITICAL:rvic:average convolve loop runtime: 0.00013846612230569456
+CRITICAL:convolution>> run: 312.99591 sec
+CRITICAL:rvic:run: 312.99591 sec
+CRITICAL:convolution>> final: 0.04608 sec
+CRITICAL:rvic:final: 0.04608 sec
+CRITICAL:root:total run time:321.528 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------85:-123.96875,56.53125---------------------------
+CRITICAL:parameters>> init: 0.5525 sec
+CRITICAL:rvic:init: 0.5525 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.39493346214294434
+CRITICAL:rvic:catchment runtime: 0.39493346214294434
+CRITICAL:gen_uh_run>> uh runtime: 0.005460977554321289
+CRITICAL:rvic:uh runtime: 0.005460977554321289
+CRITICAL:gen_uh_run>> uh_river runtime: 0.0809023380279541
+CRITICAL:rvic:uh_river runtime: 0.0809023380279541
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.06687283515930176
+CRITICAL:rvic:grid_uh runtime: 0.06687283515930176
+CRITICAL:parameters>> run: 0.80128 sec
+CRITICAL:rvic:run: 0.80128 sec
+CRITICAL:parameters>> final: 7.57602 sec
+CRITICAL:rvic:final: 7.57602 sec
+CRITICAL:convolution>> init: 0.10777 sec
+CRITICAL:rvic:init: 0.10777 sec
+CRITICAL:convolution_run>> upstreams cells: 90
+CRITICAL:rvic:upstreams cells: 90
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0001373189353029845
+CRITICAL:rvic:average convolve loop runtime: 0.0001373189353029845
+CRITICAL:convolution>> run: 311.5266 sec
+CRITICAL:rvic:run: 311.5266 sec
+CRITICAL:convolution>> final: 0.02811 sec
+CRITICAL:rvic:final: 0.02811 sec
+CRITICAL:root:total run time:320.59974 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------90:-121.03125,55.03125---------------------------
+CRITICAL:parameters>> init: 0.35366 sec
+CRITICAL:rvic:init: 0.35366 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.4842104911804199
+CRITICAL:rvic:catchment runtime: 0.4842104911804199
+CRITICAL:gen_uh_run>> uh runtime: 0.007272481918334961
+CRITICAL:rvic:uh runtime: 0.007272481918334961
+CRITICAL:gen_uh_run>> uh_river runtime: 0.0951070785522461
+CRITICAL:rvic:uh_river runtime: 0.0951070785522461
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.07727313041687012
+CRITICAL:rvic:grid_uh runtime: 0.07727313041687012
+CRITICAL:parameters>> run: 0.97046 sec
+CRITICAL:rvic:run: 0.97046 sec
+CRITICAL:parameters>> final: 8.12002 sec
+CRITICAL:rvic:final: 8.12002 sec
+CRITICAL:convolution>> init: 0.13207 sec
+CRITICAL:rvic:init: 0.13207 sec
+CRITICAL:convolution_run>> upstreams cells: 103
+CRITICAL:rvic:upstreams cells: 103
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0001382102096743861
+CRITICAL:rvic:average convolve loop runtime: 0.0001382102096743861
+CRITICAL:convolution>> run: 309.78565 sec
+CRITICAL:rvic:run: 309.78565 sec
+CRITICAL:convolution>> final: 0.03971 sec
+CRITICAL:rvic:final: 0.03971 sec
+CRITICAL:root:total run time:319.40839 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------103:-121.59375,55.53125---------------------------
+CRITICAL:parameters>> init: 0.38142 sec
+CRITICAL:rvic:init: 0.38142 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.36765074729919434
+CRITICAL:rvic:catchment runtime: 0.36765074729919434
+CRITICAL:gen_uh_run>> uh runtime: 0.005702495574951172
+CRITICAL:rvic:uh runtime: 0.005702495574951172
+CRITICAL:gen_uh_run>> uh_river runtime: 0.08009624481201172
+CRITICAL:rvic:uh_river runtime: 0.08009624481201172
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.06797146797180176
+CRITICAL:rvic:grid_uh runtime: 0.06797146797180176
+CRITICAL:parameters>> run: 0.77092 sec
+CRITICAL:rvic:run: 0.77092 sec
+CRITICAL:parameters>> final: 8.0803 sec
+CRITICAL:rvic:final: 8.0803 sec
+CRITICAL:convolution>> init: 0.10711 sec
+CRITICAL:rvic:init: 0.10711 sec
+CRITICAL:convolution_run>> upstreams cells: 104
+CRITICAL:rvic:upstreams cells: 104
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00013599563280455
+CRITICAL:rvic:average convolve loop runtime: 0.00013599563280455
+CRITICAL:convolution>> run: 313.08241 sec
+CRITICAL:rvic:run: 313.08241 sec
+CRITICAL:convolution>> final: 0.01971 sec
+CRITICAL:rvic:final: 0.01971 sec
+CRITICAL:root:total run time:322.44865 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------104:-125.65625,57.46875---------------------------
+CRITICAL:parameters>> init: 0.48383 sec
+CRITICAL:rvic:init: 0.48383 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.34255051612854004
+CRITICAL:rvic:catchment runtime: 0.34255051612854004
+CRITICAL:gen_uh_run>> uh runtime: 0.006101846694946289
+CRITICAL:rvic:uh runtime: 0.006101846694946289
+CRITICAL:gen_uh_run>> uh_river runtime: 0.07188582420349121
+CRITICAL:rvic:uh_river runtime: 0.07188582420349121
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.06664896011352539
+CRITICAL:rvic:grid_uh runtime: 0.06664896011352539
+CRITICAL:parameters>> run: 0.72187 sec
+CRITICAL:rvic:run: 0.72187 sec
+CRITICAL:parameters>> final: 7.76873 sec
+CRITICAL:rvic:final: 7.76873 sec
+CRITICAL:convolution>> init: 0.09311 sec
+CRITICAL:rvic:init: 0.09311 sec
+CRITICAL:convolution_run>> upstreams cells: 118
+CRITICAL:rvic:upstreams cells: 118
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00015026756191477707
+CRITICAL:rvic:average convolve loop runtime: 0.00015026756191477707
+CRITICAL:convolution>> run: 314.38504 sec
+CRITICAL:rvic:run: 314.38504 sec
+CRITICAL:convolution>> final: 0.02074 sec
+CRITICAL:rvic:final: 0.02074 sec
+CRITICAL:root:total run time:323.47944 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------118:-124.65625,56.21875---------------------------
+CRITICAL:parameters>> init: 0.43405 sec
+CRITICAL:rvic:init: 0.43405 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.38417863845825195
+CRITICAL:rvic:catchment runtime: 0.38417863845825195
+CRITICAL:gen_uh_run>> uh runtime: 0.005757808685302734
+CRITICAL:rvic:uh runtime: 0.005757808685302734
+CRITICAL:gen_uh_run>> uh_river runtime: 0.08020687103271484
+CRITICAL:rvic:uh_river runtime: 0.08020687103271484
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.06968164443969727
+CRITICAL:rvic:grid_uh runtime: 0.06968164443969727
+CRITICAL:parameters>> run: 0.81085 sec
+CRITICAL:rvic:run: 0.81085 sec
+CRITICAL:parameters>> final: 7.77647 sec
+CRITICAL:rvic:final: 7.77647 sec
+CRITICAL:convolution>> init: 0.1093 sec
+CRITICAL:rvic:init: 0.1093 sec
+CRITICAL:convolution_run>> upstreams cells: 119
+CRITICAL:rvic:upstreams cells: 119
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00014725225944977913
+CRITICAL:rvic:average convolve loop runtime: 0.00014725225944977913
+CRITICAL:convolution>> run: 312.74703 sec
+CRITICAL:rvic:run: 312.74703 sec
+CRITICAL:convolution>> final: 0.02909 sec
+CRITICAL:rvic:final: 0.02909 sec
+CRITICAL:root:total run time:321.91333 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------119:-120.03125,55.84375---------------------------
+CRITICAL:parameters>> init: 0.29893 sec
+CRITICAL:rvic:init: 0.29893 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3508267402648926
+CRITICAL:rvic:catchment runtime: 0.3508267402648926
+CRITICAL:gen_uh_run>> uh runtime: 0.006670951843261719
+CRITICAL:rvic:uh runtime: 0.006670951843261719
+CRITICAL:gen_uh_run>> uh_river runtime: 0.10845661163330078
+CRITICAL:rvic:uh_river runtime: 0.10845661163330078
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.08877420425415039
+CRITICAL:rvic:grid_uh runtime: 0.08877420425415039
+CRITICAL:parameters>> run: 0.81367 sec
+CRITICAL:rvic:run: 0.81367 sec
+CRITICAL:parameters>> final: 7.91555 sec
+CRITICAL:rvic:final: 7.91555 sec
+CRITICAL:convolution>> init: 0.11509 sec
+CRITICAL:rvic:init: 0.11509 sec
+CRITICAL:convolution_run>> upstreams cells: 128
+CRITICAL:rvic:upstreams cells: 128
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00014261792330337337
+CRITICAL:rvic:average convolve loop runtime: 0.00014261792330337337
+CRITICAL:convolution>> run: 312.64451 sec
+CRITICAL:rvic:run: 312.64451 sec
+CRITICAL:convolution>> final: 0.03415 sec
+CRITICAL:rvic:final: 0.03415 sec
+CRITICAL:root:total run time:321.8292 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------128:-120.53125,55.96875---------------------------
+CRITICAL:parameters>> init: 0.35802 sec
+CRITICAL:rvic:init: 0.35802 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.39362525939941406
+CRITICAL:rvic:catchment runtime: 0.39362525939941406
+CRITICAL:gen_uh_run>> uh runtime: 0.00029206275939941406
+CRITICAL:rvic:uh runtime: 0.00029206275939941406
+CRITICAL:gen_uh_run>> uh_river runtime: 0.012408256530761719
+CRITICAL:rvic:uh_river runtime: 0.012408256530761719
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.008339643478393555
+CRITICAL:rvic:grid_uh runtime: 0.008339643478393555
+CRITICAL:parameters>> run: 0.61031 sec
+CRITICAL:rvic:run: 0.61031 sec
+CRITICAL:parameters>> final: 7.75225 sec
+CRITICAL:rvic:final: 7.75225 sec
+CRITICAL:convolution>> init: 0.11714 sec
+CRITICAL:rvic:init: 0.11714 sec
+CRITICAL:convolution_run>> upstreams cells: 2
+CRITICAL:rvic:upstreams cells: 2
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00010671946698897084
+CRITICAL:rvic:average convolve loop runtime: 0.00010671946698897084
+CRITICAL:convolution>> run: 306.61627 sec
+CRITICAL:rvic:run: 306.61627 sec
+CRITICAL:convolution>> final: 0.02358 sec
+CRITICAL:rvic:final: 0.02358 sec
+CRITICAL:root:total run time:315.48291 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------140:-120.3,56.0---------------------------
+CRITICAL:parameters>> init: 0.24296 sec
+CRITICAL:rvic:init: 0.24296 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.36199259757995605
+CRITICAL:rvic:catchment runtime: 0.36199259757995605
+CRITICAL:gen_uh_run>> uh runtime: 0.009161710739135742
+CRITICAL:rvic:uh runtime: 0.009161710739135742
+CRITICAL:gen_uh_run>> uh_river runtime: 0.10215115547180176
+CRITICAL:rvic:uh_river runtime: 0.10215115547180176
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.08428740501403809
+CRITICAL:rvic:grid_uh runtime: 0.08428740501403809
+CRITICAL:parameters>> run: 0.82949 sec
+CRITICAL:rvic:run: 0.82949 sec
+CRITICAL:parameters>> final: 7.66777 sec
+CRITICAL:rvic:final: 7.66777 sec
+CRITICAL:convolution>> init: 0.10123 sec
+CRITICAL:rvic:init: 0.10123 sec
+CRITICAL:convolution_run>> upstreams cells: 148
+CRITICAL:rvic:upstreams cells: 148
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00015880876969384008
+CRITICAL:rvic:average convolve loop runtime: 0.00015880876969384008
+CRITICAL:convolution>> run: 311.74574 sec
+CRITICAL:rvic:run: 311.74574 sec
+CRITICAL:convolution>> final: 0.02126 sec
+CRITICAL:rvic:final: 0.02126 sec
+CRITICAL:root:total run time:320.61453 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------149:-123.03125,54.96875---------------------------
+CRITICAL:parameters>> init: 0.21151 sec
+CRITICAL:rvic:init: 0.21151 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.41394805908203125
+CRITICAL:rvic:catchment runtime: 0.41394805908203125
+CRITICAL:gen_uh_run>> uh runtime: 0.008627891540527344
+CRITICAL:rvic:uh runtime: 0.008627891540527344
+CRITICAL:gen_uh_run>> uh_river runtime: 0.11567163467407227
+CRITICAL:rvic:uh_river runtime: 0.11567163467407227
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.10892724990844727
+CRITICAL:rvic:grid_uh runtime: 0.10892724990844727
+CRITICAL:parameters>> run: 0.94586 sec
+CRITICAL:rvic:run: 0.94586 sec
+CRITICAL:parameters>> final: 7.38651 sec
+CRITICAL:rvic:final: 7.38651 sec
+CRITICAL:convolution>> init: 0.09545 sec
+CRITICAL:rvic:init: 0.09545 sec
+CRITICAL:convolution_run>> upstreams cells: 155
+CRITICAL:rvic:upstreams cells: 155
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00019187847482649166
+CRITICAL:rvic:average convolve loop runtime: 0.00019187847482649166
+CRITICAL:convolution>> run: 311.49722 sec
+CRITICAL:rvic:run: 311.49722 sec
+CRITICAL:convolution>> final: 0.03587 sec
+CRITICAL:rvic:final: 0.03587 sec
+CRITICAL:root:total run time:320.17881 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------155:-122.34375,56.53125---------------------------
+CRITICAL:parameters>> init: 0.35578 sec
+CRITICAL:rvic:init: 0.35578 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.35443782806396484
+CRITICAL:rvic:catchment runtime: 0.35443782806396484
+CRITICAL:gen_uh_run>> uh runtime: 0.008094310760498047
+CRITICAL:rvic:uh runtime: 0.008094310760498047
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1064615249633789
+CRITICAL:rvic:uh_river runtime: 0.1064615249633789
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.09207344055175781
+CRITICAL:rvic:grid_uh runtime: 0.09207344055175781
+CRITICAL:parameters>> run: 0.83425 sec
+CRITICAL:rvic:run: 0.83425 sec
+CRITICAL:parameters>> final: 8.71832 sec
+CRITICAL:rvic:final: 8.71832 sec
+CRITICAL:convolution>> init: 0.14081 sec
+CRITICAL:rvic:init: 0.14081 sec
+CRITICAL:convolution_run>> upstreams cells: 163
+CRITICAL:rvic:upstreams cells: 163
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00019117814420257676
+CRITICAL:rvic:average convolve loop runtime: 0.00019117814420257676
+CRITICAL:convolution>> run: 311.82979 sec
+CRITICAL:rvic:run: 311.82979 sec
+CRITICAL:convolution>> final: 0.0372 sec
+CRITICAL:rvic:final: 0.0372 sec
+CRITICAL:root:total run time:321.92237 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------163:-125.21875,56.71875---------------------------
+CRITICAL:parameters>> init: 0.37338 sec
+CRITICAL:rvic:init: 0.37338 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3506593704223633
+CRITICAL:rvic:catchment runtime: 0.3506593704223633
+CRITICAL:gen_uh_run>> uh runtime: 0.009075403213500977
+CRITICAL:rvic:uh runtime: 0.009075403213500977
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1266636848449707
+CRITICAL:rvic:uh_river runtime: 0.1266636848449707
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.10071754455566406
+CRITICAL:rvic:grid_uh runtime: 0.10071754455566406
+CRITICAL:parameters>> run: 0.89858 sec
+CRITICAL:rvic:run: 0.89858 sec
+CRITICAL:parameters>> final: 8.21302 sec
+CRITICAL:rvic:final: 8.21302 sec
+CRITICAL:convolution>> init: 0.10435 sec
+CRITICAL:rvic:init: 0.10435 sec
+CRITICAL:convolution_run>> upstreams cells: 174
+CRITICAL:rvic:upstreams cells: 174
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00018477213729527689
+CRITICAL:rvic:average convolve loop runtime: 0.00018477213729527689
+CRITICAL:convolution>> run: 315.42399 sec
+CRITICAL:rvic:run: 315.42399 sec
+CRITICAL:convolution>> final: 0.05951 sec
+CRITICAL:rvic:final: 0.05951 sec
+CRITICAL:root:total run time:325.07887 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------174:-122.84375,55.03125---------------------------
+CRITICAL:parameters>> init: 0.32849 sec
+CRITICAL:rvic:init: 0.32849 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3851339817047119
+CRITICAL:rvic:catchment runtime: 0.3851339817047119
+CRITICAL:gen_uh_run>> uh runtime: 0.010483503341674805
+CRITICAL:rvic:uh runtime: 0.010483503341674805
+CRITICAL:gen_uh_run>> uh_river runtime: 0.12101483345031738
+CRITICAL:rvic:uh_river runtime: 0.12101483345031738
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.1038205623626709
+CRITICAL:rvic:grid_uh runtime: 0.1038205623626709
+CRITICAL:parameters>> run: 0.91748 sec
+CRITICAL:rvic:run: 0.91748 sec
+CRITICAL:parameters>> final: 7.50471 sec
+CRITICAL:rvic:final: 7.50471 sec
+CRITICAL:convolution>> init: 0.09209 sec
+CRITICAL:rvic:init: 0.09209 sec
+CRITICAL:convolution_run>> upstreams cells: 179
+CRITICAL:rvic:upstreams cells: 179
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0002018886481462933
+CRITICAL:rvic:average convolve loop runtime: 0.0002018886481462933
+CRITICAL:convolution>> run: 319.62596 sec
+CRITICAL:rvic:run: 319.62596 sec
+CRITICAL:convolution>> final: 0.02153 sec
+CRITICAL:rvic:final: 0.02153 sec
+CRITICAL:root:total run time:328.49645 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------179:-124.28125,55.21875---------------------------
+CRITICAL:parameters>> init: 0.19595 sec
+CRITICAL:rvic:init: 0.19595 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.34253716468811035
+CRITICAL:rvic:catchment runtime: 0.34253716468811035
+CRITICAL:gen_uh_run>> uh runtime: 0.01076197624206543
+CRITICAL:rvic:uh runtime: 0.01076197624206543
+CRITICAL:gen_uh_run>> uh_river runtime: 0.13675689697265625
+CRITICAL:rvic:uh_river runtime: 0.13675689697265625
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.11573290824890137
+CRITICAL:rvic:grid_uh runtime: 0.11573290824890137
+CRITICAL:parameters>> run: 0.89354 sec
+CRITICAL:rvic:run: 0.89354 sec
+CRITICAL:parameters>> final: 7.8651 sec
+CRITICAL:rvic:final: 7.8651 sec
+CRITICAL:convolution>> init: 0.08869 sec
+CRITICAL:rvic:init: 0.08869 sec
+CRITICAL:convolution_run>> upstreams cells: 204
+CRITICAL:rvic:upstreams cells: 204
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00018179525099403223
+CRITICAL:rvic:average convolve loop runtime: 0.00018179525099403223
+CRITICAL:convolution>> run: 315.84052 sec
+CRITICAL:rvic:run: 315.84052 sec
+CRITICAL:convolution>> final: 0.02384 sec
+CRITICAL:rvic:final: 0.02384 sec
+CRITICAL:root:total run time:324.91405 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------204:-121.21875,55.53125---------------------------
+CRITICAL:parameters>> init: 0.21738 sec
+CRITICAL:rvic:init: 0.21738 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3924994468688965
+CRITICAL:rvic:catchment runtime: 0.3924994468688965
+CRITICAL:gen_uh_run>> uh runtime: 0.012518882751464844
+CRITICAL:rvic:uh runtime: 0.012518882751464844
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1323988437652588
+CRITICAL:rvic:uh_river runtime: 0.1323988437652588
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.12420248985290527
+CRITICAL:rvic:grid_uh runtime: 0.12420248985290527
+CRITICAL:parameters>> run: 0.98114 sec
+CRITICAL:rvic:run: 0.98114 sec
+CRITICAL:parameters>> final: 8.27253 sec
+CRITICAL:rvic:final: 8.27253 sec
+CRITICAL:convolution>> init: 0.1162 sec
+CRITICAL:rvic:init: 0.1162 sec
+CRITICAL:convolution_run>> upstreams cells: 219
+CRITICAL:rvic:upstreams cells: 219
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00021989958768866874
+CRITICAL:rvic:average convolve loop runtime: 0.00021989958768866874
+CRITICAL:convolution>> run: 316.69359 sec
+CRITICAL:rvic:run: 316.69359 sec
+CRITICAL:convolution>> final: 0.02281 sec
+CRITICAL:rvic:final: 0.02281 sec
+CRITICAL:root:total run time:326.31211 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------222:-124.59375,55.90625---------------------------
+CRITICAL:parameters>> init: 0.22309 sec
+CRITICAL:rvic:init: 0.22309 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.4065718650817871
+CRITICAL:rvic:catchment runtime: 0.4065718650817871
+CRITICAL:gen_uh_run>> uh runtime: 0.015871047973632812
+CRITICAL:rvic:uh runtime: 0.015871047973632812
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1613171100616455
+CRITICAL:rvic:uh_river runtime: 0.1613171100616455
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.15194439888000488
+CRITICAL:rvic:grid_uh runtime: 0.15194439888000488
+CRITICAL:parameters>> run: 1.11203 sec
+CRITICAL:rvic:run: 1.11203 sec
+CRITICAL:parameters>> final: 8.28886 sec
+CRITICAL:rvic:final: 8.28886 sec
+CRITICAL:convolution>> init: 0.12192 sec
+CRITICAL:rvic:init: 0.12192 sec
+CRITICAL:convolution_run>> upstreams cells: 271
+CRITICAL:rvic:upstreams cells: 271
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00025899249836524793
+CRITICAL:rvic:average convolve loop runtime: 0.00025899249836524793
+CRITICAL:convolution>> run: 322.60002 sec
+CRITICAL:rvic:run: 322.60002 sec
+CRITICAL:convolution>> final: 0.03622 sec
+CRITICAL:rvic:final: 0.03622 sec
+CRITICAL:root:total run time:332.39003 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------271:-123.59375,55.46875---------------------------
+CRITICAL:parameters>> init: 0.21327 sec
+CRITICAL:rvic:init: 0.21327 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.35410141944885254
+CRITICAL:rvic:catchment runtime: 0.35410141944885254
+CRITICAL:gen_uh_run>> uh runtime: 0.014893531799316406
+CRITICAL:rvic:uh runtime: 0.014893531799316406
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1600170135498047
+CRITICAL:rvic:uh_river runtime: 0.1600170135498047
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.14449572563171387
+CRITICAL:rvic:grid_uh runtime: 0.14449572563171387
+CRITICAL:parameters>> run: 1.01357 sec
+CRITICAL:rvic:run: 1.01357 sec
+CRITICAL:parameters>> final: 7.98743 sec
+CRITICAL:rvic:final: 7.98743 sec
+CRITICAL:convolution>> init: 0.09393 sec
+CRITICAL:rvic:init: 0.09393 sec
+CRITICAL:convolution_run>> upstreams cells: 282
+CRITICAL:rvic:upstreams cells: 282
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00023219737996821408
+CRITICAL:rvic:average convolve loop runtime: 0.00023219737996821408
+CRITICAL:convolution>> run: 325.13869 sec
+CRITICAL:rvic:run: 325.13869 sec
+CRITICAL:convolution>> final: 0.02328 sec
+CRITICAL:rvic:final: 0.02328 sec
+CRITICAL:root:total run time:334.47683 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------282:-121.7,56.4---------------------------
+CRITICAL:parameters>> init: 0.1441 sec
+CRITICAL:rvic:init: 0.1441 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3703594207763672
+CRITICAL:rvic:catchment runtime: 0.3703594207763672
+CRITICAL:gen_uh_run>> uh runtime: 0.018747806549072266
+CRITICAL:rvic:uh runtime: 0.018747806549072266
+CRITICAL:gen_uh_run>> uh_river runtime: 0.18009090423583984
+CRITICAL:rvic:uh_river runtime: 0.18009090423583984
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.17394375801086426
+CRITICAL:rvic:grid_uh runtime: 0.17394375801086426
+CRITICAL:parameters>> run: 1.12866 sec
+CRITICAL:rvic:run: 1.12866 sec
+CRITICAL:parameters>> final: 8.05184 sec
+CRITICAL:rvic:final: 8.05184 sec
+CRITICAL:convolution>> init: 0.10717 sec
+CRITICAL:rvic:init: 0.10717 sec
+CRITICAL:convolution_run>> upstreams cells: 360
+CRITICAL:rvic:upstreams cells: 360
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00024365739918575502
+CRITICAL:rvic:average convolve loop runtime: 0.00024365739918575502
+CRITICAL:convolution>> run: 323.57467 sec
+CRITICAL:rvic:run: 323.57467 sec
+CRITICAL:convolution>> final: 0.04241 sec
+CRITICAL:rvic:final: 0.04241 sec
+CRITICAL:root:total run time:333.05517 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------360:-121.6,56.3---------------------------
+CRITICAL:parameters>> init: 0.121 sec
+CRITICAL:rvic:init: 0.121 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.36238551139831543
+CRITICAL:rvic:catchment runtime: 0.36238551139831543
+CRITICAL:gen_uh_run>> uh runtime: 0.018551349639892578
+CRITICAL:rvic:uh runtime: 0.018551349639892578
+CRITICAL:gen_uh_run>> uh_river runtime: 0.1808018684387207
+CRITICAL:rvic:uh_river runtime: 0.1808018684387207
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.175689697265625
+CRITICAL:rvic:grid_uh runtime: 0.175689697265625
+CRITICAL:parameters>> run: 1.11474 sec
+CRITICAL:rvic:run: 1.11474 sec
+CRITICAL:parameters>> final: 7.33352 sec
+CRITICAL:rvic:final: 7.33352 sec
+CRITICAL:convolution>> init: 0.09607 sec
+CRITICAL:rvic:init: 0.09607 sec
+CRITICAL:convolution_run>> upstreams cells: 361
+CRITICAL:rvic:upstreams cells: 361
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.000297264721528644
+CRITICAL:rvic:average convolve loop runtime: 0.000297264721528644
+CRITICAL:convolution>> run: 326.39433 sec
+CRITICAL:rvic:run: 326.39433 sec
+CRITICAL:convolution>> final: 0.0227 sec
+CRITICAL:rvic:final: 0.0227 sec
+CRITICAL:root:total run time:335.08837 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------361:-121.59375,56.21875---------------------------
+CRITICAL:parameters>> init: 0.17261 sec
+CRITICAL:rvic:init: 0.17261 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3740119934082031
+CRITICAL:rvic:catchment runtime: 0.3740119934082031
+CRITICAL:gen_uh_run>> uh runtime: 0.021973371505737305
+CRITICAL:rvic:uh runtime: 0.021973371505737305
+CRITICAL:gen_uh_run>> uh_river runtime: 0.2361910343170166
+CRITICAL:rvic:uh_river runtime: 0.2361910343170166
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.21834278106689453
+CRITICAL:rvic:grid_uh runtime: 0.21834278106689453
+CRITICAL:parameters>> run: 1.27981 sec
+CRITICAL:rvic:run: 1.27981 sec
+CRITICAL:parameters>> final: 8.52783 sec
+CRITICAL:rvic:final: 8.52783 sec
+CRITICAL:convolution>> init: 0.10002 sec
+CRITICAL:rvic:init: 0.10002 sec
+CRITICAL:convolution_run>> upstreams cells: 417
+CRITICAL:rvic:upstreams cells: 417
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0003374039441399238
+CRITICAL:rvic:average convolve loop runtime: 0.0003374039441399238
+CRITICAL:convolution>> run: 325.13871 sec
+CRITICAL:rvic:run: 325.13871 sec
+CRITICAL:convolution>> final: 0.02054 sec
+CRITICAL:rvic:final: 0.02054 sec
+CRITICAL:root:total run time:335.24609 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------417:-118.78125,55.09375---------------------------
+CRITICAL:parameters>> init: 0.22833 sec
+CRITICAL:rvic:init: 0.22833 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3780348300933838
+CRITICAL:rvic:catchment runtime: 0.3780348300933838
+CRITICAL:gen_uh_run>> uh runtime: 0.021660327911376953
+CRITICAL:rvic:uh runtime: 0.021660327911376953
+CRITICAL:gen_uh_run>> uh_river runtime: 0.24908161163330078
+CRITICAL:rvic:uh_river runtime: 0.24908161163330078
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.2266993522644043
+CRITICAL:rvic:grid_uh runtime: 0.2266993522644043
+CRITICAL:parameters>> run: 1.31748 sec
+CRITICAL:rvic:run: 1.31748 sec
+CRITICAL:parameters>> final: 7.42948 sec
+CRITICAL:rvic:final: 7.42948 sec
+CRITICAL:convolution>> init: 0.09988 sec
+CRITICAL:rvic:init: 0.09988 sec
+CRITICAL:convolution_run>> upstreams cells: 431
+CRITICAL:rvic:upstreams cells: 431
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.000344866782996949
+CRITICAL:rvic:average convolve loop runtime: 0.000344866782996949
+CRITICAL:convolution>> run: 329.76437 sec
+CRITICAL:rvic:run: 329.76437 sec
+CRITICAL:convolution>> final: 0.05794 sec
+CRITICAL:rvic:final: 0.05794 sec
+CRITICAL:root:total run time:338.90347 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------433:-117.15625,55.46875---------------------------
+CRITICAL:parameters>> init: 0.47752 sec
+CRITICAL:rvic:init: 0.47752 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.41590166091918945
+CRITICAL:rvic:catchment runtime: 0.41590166091918945
+CRITICAL:gen_uh_run>> uh runtime: 0.02618241310119629
+CRITICAL:rvic:uh runtime: 0.02618241310119629
+CRITICAL:gen_uh_run>> uh_river runtime: 0.27860045433044434
+CRITICAL:rvic:uh_river runtime: 0.27860045433044434
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.2500789165496826
+CRITICAL:rvic:grid_uh runtime: 0.2500789165496826
+CRITICAL:parameters>> run: 1.47048 sec
+CRITICAL:rvic:run: 1.47048 sec
+CRITICAL:parameters>> final: 8.47858 sec
+CRITICAL:rvic:final: 8.47858 sec
+CRITICAL:convolution>> init: 0.19255 sec
+CRITICAL:rvic:init: 0.19255 sec
+CRITICAL:convolution_run>> upstreams cells: 444
+CRITICAL:rvic:upstreams cells: 444
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0002884554176100794
+CRITICAL:rvic:average convolve loop runtime: 0.0002884554176100794
+CRITICAL:convolution>> run: 321.98434 sec
+CRITICAL:rvic:run: 321.98434 sec
+CRITICAL:convolution>> final: 0.02727 sec
+CRITICAL:rvic:final: 0.02727 sec
+CRITICAL:root:total run time:332.6375 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------444:-121.21875,55.71875---------------------------
+CRITICAL:parameters>> init: 0.29433 sec
+CRITICAL:rvic:init: 0.29433 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3333780765533447
+CRITICAL:rvic:catchment runtime: 0.3333780765533447
+CRITICAL:gen_uh_run>> uh runtime: 0.023635149002075195
+CRITICAL:rvic:uh runtime: 0.023635149002075195
+CRITICAL:gen_uh_run>> uh_river runtime: 0.25214433670043945
+CRITICAL:rvic:uh_river runtime: 0.25214433670043945
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.22430872917175293
+CRITICAL:rvic:grid_uh runtime: 0.22430872917175293
+CRITICAL:parameters>> run: 1.25422 sec
+CRITICAL:rvic:run: 1.25422 sec
+CRITICAL:parameters>> final: 7.26439 sec
+CRITICAL:rvic:final: 7.26439 sec
+CRITICAL:convolution>> init: 0.09515 sec
+CRITICAL:rvic:init: 0.09515 sec
+CRITICAL:convolution_run>> upstreams cells: 486
+CRITICAL:rvic:upstreams cells: 486
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0003363946965175662
+CRITICAL:rvic:average convolve loop runtime: 0.0003363946965175662
+CRITICAL:convolution>> run: 318.9883 sec
+CRITICAL:rvic:run: 318.9883 sec
+CRITICAL:convolution>> final: 0.02595 sec
+CRITICAL:rvic:final: 0.02595 sec
+CRITICAL:root:total run time:327.92832 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------486:-120.9,56.1---------------------------
+CRITICAL:parameters>> init: 0.22701 sec
+CRITICAL:rvic:init: 0.22701 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3914315700531006
+CRITICAL:rvic:catchment runtime: 0.3914315700531006
+CRITICAL:gen_uh_run>> uh runtime: 0.03305673599243164
+CRITICAL:rvic:uh runtime: 0.03305673599243164
+CRITICAL:gen_uh_run>> uh_river runtime: 0.30132365226745605
+CRITICAL:rvic:uh_river runtime: 0.30132365226745605
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.2904551029205322
+CRITICAL:rvic:grid_uh runtime: 0.2904551029205322
+CRITICAL:parameters>> run: 1.55872 sec
+CRITICAL:rvic:run: 1.55872 sec
+CRITICAL:parameters>> final: 7.63822 sec
+CRITICAL:rvic:final: 7.63822 sec
+CRITICAL:convolution>> init: 0.12346 sec
+CRITICAL:rvic:init: 0.12346 sec
+CRITICAL:convolution_run>> upstreams cells: 622
+CRITICAL:rvic:upstreams cells: 622
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.000412713754259847
+CRITICAL:rvic:average convolve loop runtime: 0.000412713754259847
+CRITICAL:convolution>> run: 330.4046 sec
+CRITICAL:rvic:run: 330.4046 sec
+CRITICAL:convolution>> final: 0.02069 sec
+CRITICAL:rvic:final: 0.02069 sec
+CRITICAL:root:total run time:339.97897 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------623:-120.71875,56.28125---------------------------
+CRITICAL:parameters>> init: 0.43877 sec
+CRITICAL:rvic:init: 0.43877 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.43465185165405273
+CRITICAL:rvic:catchment runtime: 0.43465185165405273
+CRITICAL:gen_uh_run>> uh runtime: 0.03484535217285156
+CRITICAL:rvic:uh runtime: 0.03484535217285156
+CRITICAL:gen_uh_run>> uh_river runtime: 0.30707335472106934
+CRITICAL:rvic:uh_river runtime: 0.30707335472106934
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.2883141040802002
+CRITICAL:rvic:grid_uh runtime: 0.2883141040802002
+CRITICAL:parameters>> run: 1.64666 sec
+CRITICAL:rvic:run: 1.64666 sec
+CRITICAL:parameters>> final: 8.32688 sec
+CRITICAL:rvic:final: 8.32688 sec
+CRITICAL:convolution>> init: 0.16469 sec
+CRITICAL:rvic:init: 0.16469 sec
+CRITICAL:convolution_run>> upstreams cells: 627
+CRITICAL:rvic:upstreams cells: 627
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0005042596535730435
+CRITICAL:rvic:average convolve loop runtime: 0.0005042596535730435
+CRITICAL:convolution>> run: 340.105 sec
+CRITICAL:rvic:run: 340.105 sec
+CRITICAL:convolution>> final: 0.02856 sec
+CRITICAL:rvic:final: 0.02856 sec
+CRITICAL:root:total run time:350.71712 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------631:-120.5,56.2---------------------------
+CRITICAL:parameters>> init: 0.26145 sec
+CRITICAL:rvic:init: 0.26145 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3919548988342285
+CRITICAL:rvic:catchment runtime: 0.3919548988342285
+CRITICAL:gen_uh_run>> uh runtime: 0.03413701057434082
+CRITICAL:rvic:uh runtime: 0.03413701057434082
+CRITICAL:gen_uh_run>> uh_river runtime: 0.31850337982177734
+CRITICAL:rvic:uh_river runtime: 0.31850337982177734
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.3044760227203369
+CRITICAL:rvic:grid_uh runtime: 0.3044760227203369
+CRITICAL:parameters>> run: 1.63196 sec
+CRITICAL:rvic:run: 1.63196 sec
+CRITICAL:parameters>> final: 7.52219 sec
+CRITICAL:rvic:final: 7.52219 sec
+CRITICAL:convolution>> init: 0.10475 sec
+CRITICAL:rvic:init: 0.10475 sec
+CRITICAL:convolution_run>> upstreams cells: 666
+CRITICAL:rvic:upstreams cells: 666
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00044316523906387094
+CRITICAL:rvic:average convolve loop runtime: 0.00044316523906387094
+CRITICAL:convolution>> run: 337.03168 sec
+CRITICAL:rvic:run: 337.03168 sec
+CRITICAL:convolution>> final: 0.02114 sec
+CRITICAL:rvic:final: 0.02114 sec
+CRITICAL:root:total run time:346.57973 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------669:-125.28125,57.15625---------------------------
+CRITICAL:parameters>> init: 0.27191 sec
+CRITICAL:rvic:init: 0.27191 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.3671131134033203
+CRITICAL:rvic:catchment runtime: 0.3671131134033203
+CRITICAL:gen_uh_run>> uh runtime: 0.0004837512969970703
+CRITICAL:rvic:uh runtime: 0.0004837512969970703
+CRITICAL:gen_uh_run>> uh_river runtime: 0.01203608512878418
+CRITICAL:rvic:uh_river runtime: 0.01203608512878418
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.008112430572509766
+CRITICAL:rvic:grid_uh runtime: 0.008112430572509766
+CRITICAL:parameters>> run: 0.56891 sec
+CRITICAL:rvic:run: 0.56891 sec
+CRITICAL:parameters>> final: 7.78929 sec
+CRITICAL:rvic:final: 7.78929 sec
+CRITICAL:convolution>> init: 0.09291 sec
+CRITICAL:rvic:init: 0.09291 sec
+CRITICAL:convolution_run>> upstreams cells: 2
+CRITICAL:rvic:upstreams cells: 2
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.00010845121391382232
+CRITICAL:rvic:average convolve loop runtime: 0.00010845121391382232
+CRITICAL:convolution>> run: 315.7289 sec
+CRITICAL:rvic:run: 315.7289 sec
+CRITICAL:convolution>> final: 0.03339 sec
+CRITICAL:rvic:final: 0.03339 sec
+CRITICAL:root:total run time:324.49171 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------1351:-117.7,55.5---------------------------
+CRITICAL:parameters>> init: 0.39552 sec
+CRITICAL:rvic:init: 0.39552 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.48941636085510254
+CRITICAL:rvic:catchment runtime: 0.48941636085510254
+CRITICAL:gen_uh_run>> uh runtime: 0.11511015892028809
+CRITICAL:rvic:uh runtime: 0.11511015892028809
+CRITICAL:gen_uh_run>> uh_river runtime: 0.8831276893615723
+CRITICAL:rvic:uh_river runtime: 0.8831276893615723
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.9116706848144531
+CRITICAL:rvic:grid_uh runtime: 0.9116706848144531
+CRITICAL:parameters>> run: 3.82209 sec
+CRITICAL:rvic:run: 3.82209 sec
+CRITICAL:parameters>> final: 8.60213 sec
+CRITICAL:rvic:final: 8.60213 sec
+CRITICAL:convolution>> init: 0.12312 sec
+CRITICAL:rvic:init: 0.12312 sec
+CRITICAL:convolution_run>> upstreams cells: 1900
+CRITICAL:rvic:upstreams cells: 1900
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0009732096684540621
+CRITICAL:rvic:average convolve loop runtime: 0.0009732096684540621
+CRITICAL:convolution>> run: 367.76225 sec
+CRITICAL:rvic:run: 367.76225 sec
+CRITICAL:convolution>> final: 0.02249 sec
+CRITICAL:rvic:final: 0.02249 sec
+CRITICAL:root:total run time:380.73498 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------1907:-117.59375,55.78125---------------------------
+CRITICAL:parameters>> init: 0.27912 sec
+CRITICAL:rvic:init: 0.27912 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.43551015853881836
+CRITICAL:rvic:catchment runtime: 0.43551015853881836
+CRITICAL:gen_uh_run>> uh runtime: 0.10773611068725586
+CRITICAL:rvic:uh runtime: 0.10773611068725586
+CRITICAL:gen_uh_run>> uh_river runtime: 0.8763206005096436
+CRITICAL:rvic:uh_river runtime: 0.8763206005096436
+CRITICAL:gen_uh_run>> grid_uh runtime: 0.8468286991119385
+CRITICAL:rvic:grid_uh runtime: 0.8468286991119385
+CRITICAL:parameters>> run: 3.58808 sec
+CRITICAL:rvic:run: 3.58808 sec
+CRITICAL:parameters>> final: 8.38841 sec
+CRITICAL:rvic:final: 8.38841 sec
+CRITICAL:convolution>> init: 0.10405 sec
+CRITICAL:rvic:init: 0.10405 sec
+CRITICAL:convolution_run>> upstreams cells: 1941
+CRITICAL:rvic:upstreams cells: 1941
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.001596804822278558
+CRITICAL:rvic:average convolve loop runtime: 0.001596804822278558
+CRITICAL:convolution>> run: 409.51816 sec
+CRITICAL:rvic:run: 409.51816 sec
+CRITICAL:convolution>> final: 0.09393 sec
+CRITICAL:rvic:final: 0.09393 sec
+CRITICAL:root:total run time:421.97958 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------1948:-117.4,56.1---------------------------
+CRITICAL:parameters>> init: 0.28732 sec
+CRITICAL:rvic:init: 0.28732 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5082802772521973
+CRITICAL:rvic:catchment runtime: 0.5082802772521973
+CRITICAL:gen_uh_run>> uh runtime: 0.16744589805603027
+CRITICAL:rvic:uh runtime: 0.16744589805603027
+CRITICAL:gen_uh_run>> uh_river runtime: 1.2563443183898926
+CRITICAL:rvic:uh_river runtime: 1.2563443183898926
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.2710192203521729
+CRITICAL:rvic:grid_uh runtime: 1.2710192203521729
+CRITICAL:parameters>> run: 5.54094 sec
+CRITICAL:rvic:run: 5.54094 sec
+CRITICAL:parameters>> final: 8.44216 sec
+CRITICAL:rvic:final: 8.44216 sec
+CRITICAL:convolution>> init: 0.14445 sec
+CRITICAL:rvic:init: 0.14445 sec
+CRITICAL:convolution_run>> upstreams cells: 2829
+CRITICAL:rvic:upstreams cells: 2829
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.002366327379056983
+CRITICAL:rvic:average convolve loop runtime: 0.002366327379056983
+CRITICAL:convolution>> run: 457.43293 sec
+CRITICAL:rvic:run: 457.43293 sec
+CRITICAL:convolution>> final: 0.02266 sec
+CRITICAL:rvic:final: 0.02266 sec
+CRITICAL:root:total run time:471.87729 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------2836:-122.21875,56.03125---------------------------
+CRITICAL:parameters>> init: 0.35405 sec
+CRITICAL:rvic:init: 0.35405 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.4734678268432617
+CRITICAL:rvic:catchment runtime: 0.4734678268432617
+CRITICAL:gen_uh_run>> uh runtime: 0.15543413162231445
+CRITICAL:rvic:uh runtime: 0.15543413162231445
+CRITICAL:gen_uh_run>> uh_river runtime: 1.2698700428009033
+CRITICAL:rvic:uh_river runtime: 1.2698700428009033
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.2629950046539307
+CRITICAL:rvic:grid_uh runtime: 1.2629950046539307
+CRITICAL:parameters>> run: 4.99075 sec
+CRITICAL:rvic:run: 4.99075 sec
+CRITICAL:parameters>> final: 8.31578 sec
+CRITICAL:rvic:final: 8.31578 sec
+CRITICAL:convolution>> init: 0.13067 sec
+CRITICAL:rvic:init: 0.13067 sec
+CRITICAL:convolution_run>> upstreams cells: 2824
+CRITICAL:rvic:upstreams cells: 2824
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0012304516161045925
+CRITICAL:rvic:average convolve loop runtime: 0.0012304516161045925
+CRITICAL:convolution>> run: 382.88946 sec
+CRITICAL:rvic:run: 382.88946 sec
+CRITICAL:convolution>> final: 0.02333 sec
+CRITICAL:rvic:final: 0.02333 sec
+CRITICAL:root:total run time:396.71025 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------2867:-122.0,56.0---------------------------
+CRITICAL:parameters>> init: 0.38134 sec
+CRITICAL:rvic:init: 0.38134 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5729653835296631
+CRITICAL:rvic:catchment runtime: 0.5729653835296631
+CRITICAL:gen_uh_run>> uh runtime: 0.19454717636108398
+CRITICAL:rvic:uh runtime: 0.19454717636108398
+CRITICAL:gen_uh_run>> uh_river runtime: 1.3247222900390625
+CRITICAL:rvic:uh_river runtime: 1.3247222900390625
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.2926039695739746
+CRITICAL:rvic:grid_uh runtime: 1.2926039695739746
+CRITICAL:parameters>> run: 5.82596 sec
+CRITICAL:rvic:run: 5.82596 sec
+CRITICAL:parameters>> final: 8.17465 sec
+CRITICAL:rvic:final: 8.17465 sec
+CRITICAL:convolution>> init: 0.11995 sec
+CRITICAL:rvic:init: 0.11995 sec
+CRITICAL:convolution_run>> upstreams cells: 2752
+CRITICAL:rvic:upstreams cells: 2752
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0012304643892053011
+CRITICAL:rvic:average convolve loop runtime: 0.0012304643892053011
+CRITICAL:convolution>> run: 386.3269 sec
+CRITICAL:rvic:run: 386.3269 sec
+CRITICAL:convolution>> final: 0.03589 sec
+CRITICAL:rvic:final: 0.03589 sec
+CRITICAL:root:total run time:400.87161 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------2868:-121.9,56.0---------------------------
+CRITICAL:parameters>> init: 0.30003 sec
+CRITICAL:rvic:init: 0.30003 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5135574340820312
+CRITICAL:rvic:catchment runtime: 0.5135574340820312
+CRITICAL:gen_uh_run>> uh runtime: 0.15765380859375
+CRITICAL:rvic:uh runtime: 0.15765380859375
+CRITICAL:gen_uh_run>> uh_river runtime: 1.2694728374481201
+CRITICAL:rvic:uh_river runtime: 1.2694728374481201
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.241861343383789
+CRITICAL:rvic:grid_uh runtime: 1.241861343383789
+CRITICAL:parameters>> run: 5.04935 sec
+CRITICAL:rvic:run: 5.04935 sec
+CRITICAL:parameters>> final: 8.55782 sec
+CRITICAL:rvic:final: 8.55782 sec
+CRITICAL:convolution>> init: 0.1272 sec
+CRITICAL:rvic:init: 0.1272 sec
+CRITICAL:convolution_run>> upstreams cells: 2893
+CRITICAL:rvic:upstreams cells: 2893
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0025334231284486215
+CRITICAL:rvic:average convolve loop runtime: 0.0025334231284486215
+CRITICAL:convolution>> run: 467.00245 sec
+CRITICAL:rvic:run: 467.00245 sec
+CRITICAL:convolution>> final: 0.02785 sec
+CRITICAL:rvic:final: 0.02785 sec
+CRITICAL:root:total run time:481.07157 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------2900:-121.8,56.1---------------------------
+CRITICAL:parameters>> init: 0.31184 sec
+CRITICAL:rvic:init: 0.31184 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.512244462966919
+CRITICAL:rvic:catchment runtime: 0.512244462966919
+CRITICAL:gen_uh_run>> uh runtime: 0.16122651100158691
+CRITICAL:rvic:uh runtime: 0.16122651100158691
+CRITICAL:gen_uh_run>> uh_river runtime: 1.2696359157562256
+CRITICAL:rvic:uh_river runtime: 1.2696359157562256
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.2461512088775635
+CRITICAL:rvic:grid_uh runtime: 1.2461512088775635
+CRITICAL:parameters>> run: 5.07733 sec
+CRITICAL:rvic:run: 5.07733 sec
+CRITICAL:parameters>> final: 8.6034 sec
+CRITICAL:rvic:final: 8.6034 sec
+CRITICAL:convolution>> init: 0.15477 sec
+CRITICAL:rvic:init: 0.15477 sec
+CRITICAL:convolution_run>> upstreams cells: 2918
+CRITICAL:rvic:upstreams cells: 2918
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0019051202636891787
+CRITICAL:rvic:average convolve loop runtime: 0.0019051202636891787
+CRITICAL:convolution>> run: 431.62397 sec
+CRITICAL:rvic:run: 431.62397 sec
+CRITICAL:convolution>> final: 0.02326 sec
+CRITICAL:rvic:final: 0.02326 sec
+CRITICAL:root:total run time:445.8013 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------2925:-121.7,56.1---------------------------
+CRITICAL:parameters>> init: 0.22569 sec
+CRITICAL:rvic:init: 0.22569 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.4946560859680176
+CRITICAL:rvic:catchment runtime: 0.4946560859680176
+CRITICAL:gen_uh_run>> uh runtime: 0.1791088581085205
+CRITICAL:rvic:uh runtime: 0.1791088581085205
+CRITICAL:gen_uh_run>> uh_river runtime: 1.4254968166351318
+CRITICAL:rvic:uh_river runtime: 1.4254968166351318
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.4021542072296143
+CRITICAL:rvic:grid_uh runtime: 1.4021542072296143
+CRITICAL:parameters>> run: 5.61737 sec
+CRITICAL:rvic:run: 5.61737 sec
+CRITICAL:parameters>> final: 7.91728 sec
+CRITICAL:rvic:final: 7.91728 sec
+CRITICAL:convolution>> init: 0.12192 sec
+CRITICAL:rvic:init: 0.12192 sec
+CRITICAL:convolution_run>> upstreams cells: 3293
+CRITICAL:rvic:upstreams cells: 3293
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.002955291325662797
+CRITICAL:rvic:average convolve loop runtime: 0.002955291325662797
+CRITICAL:convolution>> run: 495.81481 sec
+CRITICAL:rvic:run: 495.81481 sec
+CRITICAL:convolution>> final: 0.02771 sec
+CRITICAL:rvic:final: 0.02771 sec
+CRITICAL:root:total run time:509.73158 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------3300:-121.3,56.2---------------------------
+CRITICAL:parameters>> init: 0.1746 sec
+CRITICAL:rvic:init: 0.1746 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.47858572006225586
+CRITICAL:rvic:catchment runtime: 0.47858572006225586
+CRITICAL:gen_uh_run>> uh runtime: 0.1818704605102539
+CRITICAL:rvic:uh runtime: 0.1818704605102539
+CRITICAL:gen_uh_run>> uh_river runtime: 1.5664048194885254
+CRITICAL:rvic:uh_river runtime: 1.5664048194885254
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.502958059310913
+CRITICAL:rvic:grid_uh runtime: 1.502958059310913
+CRITICAL:parameters>> run: 6.41047 sec
+CRITICAL:rvic:run: 6.41047 sec
+CRITICAL:parameters>> final: 7.80684 sec
+CRITICAL:rvic:final: 7.80684 sec
+CRITICAL:convolution>> init: 0.15398 sec
+CRITICAL:rvic:init: 0.15398 sec
+CRITICAL:convolution_run>> upstreams cells: 3335
+CRITICAL:rvic:upstreams cells: 3335
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0027613773711157715
+CRITICAL:rvic:average convolve loop runtime: 0.0027613773711157715
+CRITICAL:convolution>> run: 489.77936 sec
+CRITICAL:rvic:run: 489.77936 sec
+CRITICAL:convolution>> final: 0.02692 sec
+CRITICAL:rvic:final: 0.02692 sec
+CRITICAL:root:total run time:504.35933 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------3342:-121.1,56.2---------------------------
+CRITICAL:parameters>> init: 0.19252 sec
+CRITICAL:rvic:init: 0.19252 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5396778583526611
+CRITICAL:rvic:catchment runtime: 0.5396778583526611
+CRITICAL:gen_uh_run>> uh runtime: 0.2281017303466797
+CRITICAL:rvic:uh runtime: 0.2281017303466797
+CRITICAL:gen_uh_run>> uh_river runtime: 1.85581374168396
+CRITICAL:rvic:uh_river runtime: 1.85581374168396
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.8557708263397217
+CRITICAL:rvic:grid_uh runtime: 1.8557708263397217
+CRITICAL:parameters>> run: 7.2787 sec
+CRITICAL:rvic:run: 7.2787 sec
+CRITICAL:parameters>> final: 7.85426 sec
+CRITICAL:rvic:final: 7.85426 sec
+CRITICAL:convolution>> init: 0.12693 sec
+CRITICAL:rvic:init: 0.12693 sec
+CRITICAL:convolution_run>> upstreams cells: 3903
+CRITICAL:rvic:upstreams cells: 3903
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0031960848465870085
+CRITICAL:rvic:average convolve loop runtime: 0.0031960848465870085
+CRITICAL:convolution>> run: 512.32328 sec
+CRITICAL:rvic:run: 512.32328 sec
+CRITICAL:convolution>> final: 0.02322 sec
+CRITICAL:rvic:final: 0.02322 sec
+CRITICAL:root:total run time:527.80566 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------3910:-120.65625,56.15625---------------------------
+CRITICAL:parameters>> init: 0.29542 sec
+CRITICAL:rvic:init: 0.29542 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5445787906646729
+CRITICAL:rvic:catchment runtime: 0.5445787906646729
+CRITICAL:gen_uh_run>> uh runtime: 0.2594313621520996
+CRITICAL:rvic:uh runtime: 0.2594313621520996
+CRITICAL:gen_uh_run>> uh_river runtime: 1.6665997505187988
+CRITICAL:rvic:uh_river runtime: 1.6665997505187988
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.579303503036499
+CRITICAL:rvic:grid_uh runtime: 1.579303503036499
+CRITICAL:parameters>> run: 6.42342 sec
+CRITICAL:rvic:run: 6.42342 sec
+CRITICAL:parameters>> final: 8.09325 sec
+CRITICAL:rvic:final: 8.09325 sec
+CRITICAL:convolution>> init: 0.19677 sec
+CRITICAL:rvic:init: 0.19677 sec
+CRITICAL:convolution_run>> upstreams cells: 3836
+CRITICAL:rvic:upstreams cells: 3836
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0019246350263240782
+CRITICAL:rvic:average convolve loop runtime: 0.0019246350263240782
+CRITICAL:convolution>> run: 438.31069 sec
+CRITICAL:rvic:run: 438.31069 sec
+CRITICAL:convolution>> final: 0.02726 sec
+CRITICAL:rvic:final: 0.02726 sec
+CRITICAL:root:total run time:453.35324 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------3921:-120.5,56.1---------------------------
+CRITICAL:parameters>> init: 0.21943 sec
+CRITICAL:rvic:init: 0.21943 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.6398825645446777
+CRITICAL:rvic:catchment runtime: 0.6398825645446777
+CRITICAL:gen_uh_run>> uh runtime: 0.29644155502319336
+CRITICAL:rvic:uh runtime: 0.29644155502319336
+CRITICAL:gen_uh_run>> uh_river runtime: 2.412205696105957
+CRITICAL:rvic:uh_river runtime: 2.412205696105957
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.2683475017547607
+CRITICAL:rvic:grid_uh runtime: 2.2683475017547607
+CRITICAL:parameters>> run: 8.77946 sec
+CRITICAL:rvic:run: 8.77946 sec
+CRITICAL:parameters>> final: 8.63836 sec
+CRITICAL:rvic:final: 8.63836 sec
+CRITICAL:convolution>> init: 0.16173 sec
+CRITICAL:rvic:init: 0.16173 sec
+CRITICAL:convolution_run>> upstreams cells: 4550
+CRITICAL:rvic:upstreams cells: 4550
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.002904464319476519
+CRITICAL:rvic:average convolve loop runtime: 0.002904464319476519
+CRITICAL:convolution>> run: 493.94572 sec
+CRITICAL:rvic:run: 493.94572 sec
+CRITICAL:convolution>> final: 0.10899 sec
+CRITICAL:rvic:final: 0.10899 sec
+CRITICAL:root:total run time:511.86056 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------4558:-120.3,56.1---------------------------
+CRITICAL:parameters>> init: 0.23515 sec
+CRITICAL:rvic:init: 0.23515 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5283071994781494
+CRITICAL:rvic:catchment runtime: 0.5283071994781494
+CRITICAL:gen_uh_run>> uh runtime: 0.2574424743652344
+CRITICAL:rvic:uh runtime: 0.2574424743652344
+CRITICAL:gen_uh_run>> uh_river runtime: 2.000559091567993
+CRITICAL:rvic:uh_river runtime: 2.000559091567993
+CRITICAL:gen_uh_run>> grid_uh runtime: 1.9452948570251465
+CRITICAL:rvic:grid_uh runtime: 1.9452948570251465
+CRITICAL:parameters>> run: 8.50116 sec
+CRITICAL:rvic:run: 8.50116 sec
+CRITICAL:parameters>> final: 9.11629 sec
+CRITICAL:rvic:final: 9.11629 sec
+CRITICAL:convolution>> init: 0.14002 sec
+CRITICAL:rvic:init: 0.14002 sec
+CRITICAL:convolution_run>> upstreams cells: 4700
+CRITICAL:rvic:upstreams cells: 4700
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0023527732746228777
+CRITICAL:rvic:average convolve loop runtime: 0.0023527732746228777
+CRITICAL:convolution>> run: 468.11606 sec
+CRITICAL:rvic:run: 468.11606 sec
+CRITICAL:convolution>> final: 0.02415 sec
+CRITICAL:rvic:final: 0.02415 sec
+CRITICAL:root:total run time:486.13947 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------4708:-120.1,56.1---------------------------
+CRITICAL:parameters>> init: 0.34678 sec
+CRITICAL:rvic:init: 0.34678 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5479264259338379
+CRITICAL:rvic:catchment runtime: 0.5479264259338379
+CRITICAL:gen_uh_run>> uh runtime: 0.2719461917877197
+CRITICAL:rvic:uh runtime: 0.2719461917877197
+CRITICAL:gen_uh_run>> uh_river runtime: 2.0627901554107666
+CRITICAL:rvic:uh_river runtime: 2.0627901554107666
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.1613025665283203
+CRITICAL:rvic:grid_uh runtime: 2.1613025665283203
+CRITICAL:parameters>> run: 8.11513 sec
+CRITICAL:rvic:run: 8.11513 sec
+CRITICAL:parameters>> final: 7.85215 sec
+CRITICAL:rvic:final: 7.85215 sec
+CRITICAL:convolution>> init: 0.13147 sec
+CRITICAL:rvic:init: 0.13147 sec
+CRITICAL:convolution_run>> upstreams cells: 5096
+CRITICAL:rvic:upstreams cells: 5096
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.002302965273815087
+CRITICAL:rvic:average convolve loop runtime: 0.002302965273815087
+CRITICAL:convolution>> run: 467.23107 sec
+CRITICAL:rvic:run: 467.23107 sec
+CRITICAL:convolution>> final: 0.02932 sec
+CRITICAL:rvic:final: 0.02932 sec
+CRITICAL:root:total run time:483.71287 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5104:-118.9,56.1---------------------------
+CRITICAL:parameters>> init: 0.27407 sec
+CRITICAL:rvic:init: 0.27407 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.6127653121948242
+CRITICAL:rvic:catchment runtime: 0.6127653121948242
+CRITICAL:gen_uh_run>> uh runtime: 0.30436110496520996
+CRITICAL:rvic:uh runtime: 0.30436110496520996
+CRITICAL:gen_uh_run>> uh_river runtime: 2.3757236003875732
+CRITICAL:rvic:uh_river runtime: 2.3757236003875732
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.280172824859619
+CRITICAL:rvic:grid_uh runtime: 2.280172824859619
+CRITICAL:parameters>> run: 8.79743 sec
+CRITICAL:rvic:run: 8.79743 sec
+CRITICAL:parameters>> final: 7.71889 sec
+CRITICAL:rvic:final: 7.71889 sec
+CRITICAL:convolution>> init: 0.12947 sec
+CRITICAL:rvic:init: 0.12947 sec
+CRITICAL:convolution_run>> upstreams cells: 5240
+CRITICAL:rvic:upstreams cells: 5240
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0023153435033592333
+CRITICAL:rvic:average convolve loop runtime: 0.0023153435033592333
+CRITICAL:convolution>> run: 464.37687 sec
+CRITICAL:rvic:run: 464.37687 sec
+CRITICAL:convolution>> final: 0.02355 sec
+CRITICAL:rvic:final: 0.02355 sec
+CRITICAL:root:total run time:481.32697 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5248:-118.6,55.9---------------------------
+CRITICAL:parameters>> init: 0.13952 sec
+CRITICAL:rvic:init: 0.13952 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5582435131072998
+CRITICAL:rvic:catchment runtime: 0.5582435131072998
+CRITICAL:gen_uh_run>> uh runtime: 0.2848513126373291
+CRITICAL:rvic:uh runtime: 0.2848513126373291
+CRITICAL:gen_uh_run>> uh_river runtime: 2.108954668045044
+CRITICAL:rvic:uh_river runtime: 2.108954668045044
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.106816291809082
+CRITICAL:rvic:grid_uh runtime: 2.106816291809082
+CRITICAL:parameters>> run: 8.18907 sec
+CRITICAL:rvic:run: 8.18907 sec
+CRITICAL:parameters>> final: 9.52781 sec
+CRITICAL:rvic:final: 9.52781 sec
+CRITICAL:convolution>> init: 0.13264 sec
+CRITICAL:rvic:init: 0.13264 sec
+CRITICAL:convolution_run>> upstreams cells: 5247
+CRITICAL:rvic:upstreams cells: 5247
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.004831880441061603
+CRITICAL:rvic:average convolve loop runtime: 0.004831880441061603
+CRITICAL:convolution>> run: 613.51115 sec
+CRITICAL:rvic:run: 613.51115 sec
+CRITICAL:convolution>> final: 0.04653 sec
+CRITICAL:rvic:final: 0.04653 sec
+CRITICAL:root:total run time:631.55325 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5256:-118.5,55.9---------------------------
+CRITICAL:parameters>> init: 0.14012 sec
+CRITICAL:rvic:init: 0.14012 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5571038722991943
+CRITICAL:rvic:catchment runtime: 0.5571038722991943
+CRITICAL:gen_uh_run>> uh runtime: 0.27998781204223633
+CRITICAL:rvic:uh runtime: 0.27998781204223633
+CRITICAL:gen_uh_run>> uh_river runtime: 2.3241443634033203
+CRITICAL:rvic:uh_river runtime: 2.3241443634033203
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.27278470993042
+CRITICAL:rvic:grid_uh runtime: 2.27278470993042
+CRITICAL:parameters>> run: 8.81078 sec
+CRITICAL:rvic:run: 8.81078 sec
+CRITICAL:parameters>> final: 8.97279 sec
+CRITICAL:rvic:final: 8.97279 sec
+CRITICAL:convolution>> init: 0.14354 sec
+CRITICAL:rvic:init: 0.14354 sec
+CRITICAL:convolution_run>> upstreams cells: 5256
+CRITICAL:rvic:upstreams cells: 5256
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.002299128517366636
+CRITICAL:rvic:average convolve loop runtime: 0.002299128517366636
+CRITICAL:convolution>> run: 465.09843 sec
+CRITICAL:rvic:run: 465.09843 sec
+CRITICAL:convolution>> final: 0.0626 sec
+CRITICAL:rvic:final: 0.0626 sec
+CRITICAL:root:total run time:483.23652 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5264:-118.3,55.9---------------------------
+CRITICAL:parameters>> init: 0.238 sec
+CRITICAL:rvic:init: 0.238 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.5743680000305176
+CRITICAL:rvic:catchment runtime: 0.5743680000305176
+CRITICAL:gen_uh_run>> uh runtime: 0.2872812747955322
+CRITICAL:rvic:uh runtime: 0.2872812747955322
+CRITICAL:gen_uh_run>> uh_river runtime: 2.139552354812622
+CRITICAL:rvic:uh_river runtime: 2.139552354812622
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.128488302230835
+CRITICAL:rvic:grid_uh runtime: 2.128488302230835
+CRITICAL:parameters>> run: 8.31455 sec
+CRITICAL:rvic:run: 8.31455 sec
+CRITICAL:parameters>> final: 7.8382 sec
+CRITICAL:rvic:final: 7.8382 sec
+CRITICAL:convolution>> init: 0.15008 sec
+CRITICAL:rvic:init: 0.15008 sec
+CRITICAL:convolution_run>> upstreams cells: 5258
+CRITICAL:rvic:upstreams cells: 5258
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0035084363182935345
+CRITICAL:rvic:average convolve loop runtime: 0.0035084363182935345
+CRITICAL:convolution>> run: 537.29839 sec
+CRITICAL:rvic:run: 537.29839 sec
+CRITICAL:convolution>> final: 0.02764 sec
+CRITICAL:rvic:final: 0.02764 sec
+CRITICAL:root:total run time:553.87436 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5266:-118.2,55.9---------------------------
+CRITICAL:parameters>> init: 0.21282 sec
+CRITICAL:rvic:init: 0.21282 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.4504413604736328
+CRITICAL:rvic:catchment runtime: 0.4504413604736328
+CRITICAL:gen_uh_run>> uh runtime: 0.25194549560546875
+CRITICAL:rvic:uh runtime: 0.25194549560546875
+CRITICAL:gen_uh_run>> uh_river runtime: 2.0588927268981934
+CRITICAL:rvic:uh_river runtime: 2.0588927268981934
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.1334197521209717
+CRITICAL:rvic:grid_uh runtime: 2.1334197521209717
+CRITICAL:parameters>> run: 8.06562 sec
+CRITICAL:rvic:run: 8.06562 sec
+CRITICAL:parameters>> final: 8.07105 sec
+CRITICAL:rvic:final: 8.07105 sec
+CRITICAL:convolution>> init: 0.14546 sec
+CRITICAL:rvic:init: 0.14546 sec
+CRITICAL:convolution_run>> upstreams cells: 5266
+CRITICAL:rvic:upstreams cells: 5266
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0034537010591435633
+CRITICAL:rvic:average convolve loop runtime: 0.0034537010591435633
+CRITICAL:convolution>> run: 531.13221 sec
+CRITICAL:rvic:run: 531.13221 sec
+CRITICAL:convolution>> final: 0.02382 sec
+CRITICAL:rvic:final: 0.02382 sec
+CRITICAL:root:total run time:547.65713 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5363:-118.0,55.9---------------------------
+CRITICAL:parameters>> init: 0.13991 sec
+CRITICAL:rvic:init: 0.13991 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.7199437618255615
+CRITICAL:rvic:catchment runtime: 0.7199437618255615
+CRITICAL:gen_uh_run>> uh runtime: 0.35373640060424805
+CRITICAL:rvic:uh runtime: 0.35373640060424805
+CRITICAL:gen_uh_run>> uh_river runtime: 2.9140536785125732
+CRITICAL:rvic:uh_river runtime: 2.9140536785125732
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.713918924331665
+CRITICAL:rvic:grid_uh runtime: 2.713918924331665
+CRITICAL:parameters>> run: 10.64483 sec
+CRITICAL:rvic:run: 10.64483 sec
+CRITICAL:parameters>> final: 8.32543 sec
+CRITICAL:rvic:final: 8.32543 sec
+CRITICAL:convolution>> init: 0.13575 sec
+CRITICAL:rvic:init: 0.13575 sec
+CRITICAL:convolution_run>> upstreams cells: 5262
+CRITICAL:rvic:upstreams cells: 5262
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.0035221489557322803
+CRITICAL:rvic:average convolve loop runtime: 0.0035221489557322803
+CRITICAL:convolution>> run: 540.20324 sec
+CRITICAL:rvic:run: 540.20324 sec
+CRITICAL:convolution>> final: 0.06522 sec
+CRITICAL:rvic:final: 0.06522 sec
+CRITICAL:root:total run time:559.52631 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5387:-117.8,56.0---------------------------
+CRITICAL:parameters>> init: 0.23146 sec
+CRITICAL:rvic:init: 0.23146 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.7081246376037598
+CRITICAL:rvic:catchment runtime: 0.7081246376037598
+CRITICAL:gen_uh_run>> uh runtime: 0.31542158126831055
+CRITICAL:rvic:uh runtime: 0.31542158126831055
+CRITICAL:gen_uh_run>> uh_river runtime: 2.3617780208587646
+CRITICAL:rvic:uh_river runtime: 2.3617780208587646
+CRITICAL:gen_uh_run>> grid_uh runtime: 2.3683056831359863
+CRITICAL:rvic:grid_uh runtime: 2.3683056831359863
+CRITICAL:parameters>> run: 9.02399 sec
+CRITICAL:rvic:run: 9.02399 sec
+CRITICAL:parameters>> final: 9.1378 sec
+CRITICAL:rvic:final: 9.1378 sec
+CRITICAL:convolution>> init: 0.13304 sec
+CRITICAL:rvic:init: 0.13304 sec
+CRITICAL:convolution_run>> upstreams cells: 5393
+CRITICAL:rvic:upstreams cells: 5393
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.004934489597520479
+CRITICAL:rvic:average convolve loop runtime: 0.004934489597520479
+CRITICAL:convolution>> run: 625.59794 sec
+CRITICAL:rvic:run: 625.59794 sec
+CRITICAL:convolution>> final: 0.02747 sec
+CRITICAL:rvic:final: 0.02747 sec
+CRITICAL:root:total run time:644.15844 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------5404:-117.5,56.1---------------------------
+CRITICAL:parameters>> init: 0.16772 sec
+CRITICAL:rvic:init: 0.16772 sec
+CRITICAL:gen_uh_run>> catchment runtime: 0.6474032402038574
+CRITICAL:rvic:catchment runtime: 0.6474032402038574
+CRITICAL:gen_uh_run>> uh runtime: 0.4117550849914551
+CRITICAL:rvic:uh runtime: 0.4117550849914551
+CRITICAL:gen_uh_run>> uh_river runtime: 3.1021220684051514
+CRITICAL:rvic:uh_river runtime: 3.1021220684051514
+CRITICAL:gen_uh_run>> grid_uh runtime: 3.2747344970703125
+CRITICAL:rvic:grid_uh runtime: 3.2747344970703125
+CRITICAL:parameters>> run: 12.09587 sec
+CRITICAL:rvic:run: 12.09587 sec
+CRITICAL:parameters>> final: 9.6726 sec
+CRITICAL:rvic:final: 9.6726 sec
+CRITICAL:convolution>> init: 0.17313 sec
+CRITICAL:rvic:init: 0.17313 sec
+CRITICAL:convolution_run>> upstreams cells: 7469
+CRITICAL:rvic:upstreams cells: 7469
+CRITICAL:convolution_run>> outlet cells: 1
+CRITICAL:rvic:outlet cells: 1
+CRITICAL:convolution_run>> subset length: 100
+CRITICAL:rvic:subset length: 100
+CRITICAL:convolution_run>> timesteps: 56613
+CRITICAL:rvic:timesteps: 56613
+CRITICAL:convolution_run>> average convolve loop runtime: 0.007383928834974019
+CRITICAL:rvic:average convolve loop runtime: 0.007383928834974019
+CRITICAL:convolution>> run: 779.93229 sec
+CRITICAL:rvic:run: 779.93229 sec
+CRITICAL:convolution>> final: 0.02482 sec
+CRITICAL:rvic:final: 0.02482 sec
+CRITICAL:root:total run time:802.07343 sec
+CRITICAL:root:output file size:6935296 byte
+CRITICAL:root:---------------------------7484:-117.28125,56.21875---------------------------

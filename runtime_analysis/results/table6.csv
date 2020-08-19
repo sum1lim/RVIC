@@ -1,0 +1,12 @@
+rvic_convolution.c runtime, ACCESS1-0_rcp45_r1i1p1, 0.9980065122044939, 4.2553356471817475e-70
+rvic_convolution.c runtime, ACCESS1-0_rcp85_r1i1p1, 0.9981810555154136, 3.131906458066061e-71
+rvic_convolution.c runtime, CanESM2_rcp45_r1i1p1, 0.9977556801983476, 1.2428346871557034e-68
+rvic_convolution.c runtime, CanESM2_rcp85_r1i1p1, 0.9978209863374323, 5.361472206298147e-69
+rvic_convolution.c runtime, CCSM4_rcp45_r2i1p1, 0.997936892405592, 1.1308844854851754e-69
+rvic_convolution.c runtime, CCSM4_rcp85_r2i1p1, 0.9974612025567445, 4.1562048702755156e-67
+rvic_convolution.c runtime, CNRM-CM5_rcp45_r1i1p1, 0.9976840277522816, 3.0407794936799248e-68
+rvic_convolution.c runtime, CNRM-CM5_rcp85_r1i1p1, 0.9964978751040856, 3.932633650574851e-63
+rvic_convolution.c runtime, HadGEM2-ES_rcp45_r1i1p1, 0.9863099806435562, 2.5688275976366473e-46
+rvic_convolution.c runtime, HadGEM2-ES_rcp85_r1i1p1, 0.9961127086590689, 7.655052917225046e-62
+rvic_convolution.c runtime, MPI-ESM-LR_rcp45_r3i1p1, 0.99610434793271, 8.137526083408384e-62
+rvic_convolution.c runtime, MPI-ESM-LR_rcp85_r3i1p1, 0.9976795781466252, 3.211564993877615e-68
